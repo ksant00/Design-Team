@@ -1,4 +1,4 @@
-27222565871498115
+27248276031222788
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95045,6 +95045,13 @@ Integrated Circuit
 0
 25
 25
+Power_Distribution_Board
+LM2596DSADJG
+D2PAK 5−LEAD CASE 936A−02 ISSUE E_2025-1.1
+Integrated Circuit
+0
+6
+6
 Power_Distribution_Board
 STM32L052K6T6
 ST LQFP32
