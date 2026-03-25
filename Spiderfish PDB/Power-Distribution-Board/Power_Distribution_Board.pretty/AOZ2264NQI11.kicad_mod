@@ -5,8 +5,8 @@
 	(layer "F.Cu")
 	(descr "AOZ2264NQI-11-3")
 	(tags "Integrated Circuit")
-	(property "Reference" "IC**"
-		(at -1 -4.5 0)
+	(property "Reference" "REF**"
+		(at -0.5 -4.025 0)
 		(layer "F.SilkS")
 		(uuid "3a94d791-e56b-4e95-864b-8ddcf5099d30")
 		(effects

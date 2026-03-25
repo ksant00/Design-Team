@@ -1,0 +1,265 @@
+(footprint "EG1218"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "EG1218-3")
+	(tags "Switch")
+	(property "Reference" "REF**"
+		(at -2.925 -3.925 0)
+		(layer "F.SilkS")
+		(uuid "d7052b16-7680-4f56-8b25-1e3c0cf77d25")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "EG1218"
+		(at 1.9 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e64ccc8b-9b45-4f6d-927e-9b6269c1c3a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.ca/en/products/detail/e-switch/EG1218/101726"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddd9185b-236d-43ac-ab83-b105c3b400d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Slide Switch SPDT Through Hole"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b922477-8a73-4117-8059-3a0d810c9be6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.5 0)
+		(end -4.5 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "becf66d7-bfca-45b4-ad21-d862e567c35a")
+	)
+	(fp_line
+		(start -4.3 0)
+		(end -4.3 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "600d02be-75e4-404e-b111-b2f501856f13")
+	)
+	(fp_line
+		(start -3.3 -2)
+		(end 8.3 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9afc0ff0-6717-42b1-8ce2-e50b87c3cf76")
+	)
+	(fp_line
+		(start -3.3 2)
+		(end -3.3 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e0bc0a8-6045-41b7-98df-8548e83c277a")
+	)
+	(fp_line
+		(start 8.3 -2)
+		(end 8.3 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97465d36-c633-4114-9206-b2fe947f6cce")
+	)
+	(fp_line
+		(start 8.3 2)
+		(end -3.3 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e725d57c-b76a-41a6-8550-c9a24e2a28f0")
+	)
+	(fp_arc
+		(start -4.5 0)
+		(mid -4.4 -0.1)
+		(end -4.3 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "036dbea8-21e8-4c94-9d8e-5056d8e038d4")
+	)
+	(fp_arc
+		(start -4.3 0)
+		(mid -4.4 0.1)
+		(end -4.5 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f6aab6d0-bc1f-49d5-a48c-402854a02cec")
+	)
+	(fp_line
+		(start -5.5 -3)
+		(end 9.3 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc235f87-7e72-44c2-9858-0bd2a16578d9")
+	)
+	(fp_line
+		(start -5.5 3)
+		(end -5.5 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3eaa8253-8ba0-4873-b208-e5402ab365c4")
+	)
+	(fp_line
+		(start 9.3 -3)
+		(end 9.3 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "23267ca8-9203-4148-828f-dbc6bb9c3016")
+	)
+	(fp_line
+		(start 9.3 3)
+		(end -5.5 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b86f673c-0592-412d-b4ad-e27f64c7f923")
+	)
+	(fp_line
+		(start -3.3 -2)
+		(end 8.3 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f2e24932-604b-4dfd-a9b1-96532dd2de1c")
+	)
+	(fp_line
+		(start -3.3 2)
+		(end -3.3 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8b0293fb-0396-4a6b-8db6-46bc449b4f42")
+	)
+	(fp_line
+		(start 8.3 -2)
+		(end 8.3 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "95cc22a8-6634-421d-becc-726a6ed70db7")
+	)
+	(fp_line
+		(start 8.3 2)
+		(end -3.3 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6f9a5113-3786-4709-a457-3bbcae89d472")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.9 0 0)
+		(layer "F.Fab")
+		(uuid "bf8ee526-fefd-44b1-9eb8-5f3ff6659c62")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f85b4169-b6b4-4ba5-b093-45346dc49261")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "60af2c52-7d84-4c78-b72b-480f2c14670f")
+	)
+	(pad "3" thru_hole circle
+		(at 5 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "af262375-ca83-4d45-bfcf-1adf05e3db13")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Power_Distribution_Board.pretty/EG1218.stp"
+		(offset
+			(xyz 2.489999972 0 0.1399999985)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

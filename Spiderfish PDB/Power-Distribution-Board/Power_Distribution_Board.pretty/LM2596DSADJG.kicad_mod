@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "D2PAK 5−LEAD CASE 936A−02 ISSUE E_2025-1.1")
 	(tags "Integrated Circuit")
-	(property "Reference" "IC**"
+	(property "Reference" "U**"
 		(at -4.5 -10 0)
 		(layer "F.SilkS")
 		(uuid "2d36b852-45af-4011-ac13-c5c89bef54c1")
@@ -253,7 +253,7 @@
 		(uuid "de6cd359-e807-45c3-89f4-1198dcf9b1f5")
 	)
 	(embedded_fonts no)
-	(model "LM2596DSADJG.stp"
+	(model "${KIPRJMOD}/Power_Distribution_Board.pretty/LM2596DSADJG.stp"
 		(offset
 			(xyz 0 6.380000019 1.230000001)
 		)

@@ -5,8 +5,8 @@
 	(layer "F.Cu")
 	(descr "ST LQFP32")
 	(tags "Integrated Circuit")
-	(property "Reference" "IC**"
-		(at -3.5 -6.5 0)
+	(property "Reference" "REF**"
+		(at -2.65 -6.3 0)
 		(layer "F.SilkS")
 		(uuid "240a0ba8-0bfc-4095-a605-4d08b086dbf2")
 		(effects
@@ -398,7 +398,7 @@
 		(uuid "12e7c847-9c32-47c3-a673-956fa425572d")
 	)
 	(embedded_fonts no)
-	(model "STM32L052K6T6.stp"
+	(model "${KIPRJMOD}/Power_Distribution_Board.pretty/STM32L052K6T6.stp"
 		(offset
 			(xyz 0 0 0)
 		)

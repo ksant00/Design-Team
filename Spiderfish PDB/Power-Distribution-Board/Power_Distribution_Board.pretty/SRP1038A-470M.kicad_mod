@@ -1,0 +1,179 @@
+(footprint "SRP1038A-470M"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "47 µH Shielded Drum Core, Wirewound Inductor 3 A 167mOhm Max Nonstandard")
+	(property "Reference" "REF**"
+		(at 0 -6.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8499cf05-0981-42c8-8a69-c3d6e56817a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SRP1038A-470M"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1663ca76-cd91-4db4-b8fa-884213e0eb4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.ca/en/products/detail/bourns-inc/SRP1038A-470M/4876849"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e040dd63-7224-4769-a116-c4af5387a15b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "47 µH Shielded Drum Core, Wirewound Inductor 3 A 167mOhm Max Nonstandard"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96d3a040-a8b3-4641-9d09-782513ad9a05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.5 -5)
+		(end 5.5 -5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d0519be-8ad1-42b2-95c6-f90099fd28ef")
+	)
+	(fp_line
+		(start -5.5 -2.4)
+		(end -5.5 -5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16822ddd-b11e-4331-ba55-fd41b55fc067")
+	)
+	(fp_line
+		(start -5.5 2.4)
+		(end -5.5 5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b27ff41b-6be4-4a83-b650-b8ad88092f1d")
+	)
+	(fp_line
+		(start -5.5 5)
+		(end 5.5 5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e0716710-47a5-4f9e-87e2-f53fe7600784")
+	)
+	(fp_line
+		(start 5.5 -2.4)
+		(end 5.5 -5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18239753-a99e-441a-926e-aaffd2904799")
+	)
+	(fp_line
+		(start 5.5 2.4)
+		(end 5.5 5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0bdabd6-e8b0-4098-aad3-b0a69d0d9480")
+	)
+	(fp_rect
+		(start -7.075 -5.375)
+		(end 7.075 5.375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d8ce05fd-7910-40f1-b82d-2f04592ad71d")
+	)
+	(fp_rect
+		(start -5.5 -5)
+		(end 5.5 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3d431093-68c9-4331-a318-c4fa9c287518")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "811dd07f-dd13-4d60-819f-ffbf5944bad5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.75 0)
+		(size 4.1 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "7f440325-eb8a-48f5-816d-dc2d0ae6153a")
+	)
+	(pad "2" smd roundrect
+		(at 4.75 0)
+		(size 4.1 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "34f028df-a3e4-4cca-a5d7-966b8aa500db")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Power_Distribution_Board.pretty/SRP1038A-470M.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

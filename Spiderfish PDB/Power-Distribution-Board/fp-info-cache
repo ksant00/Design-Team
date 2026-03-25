@@ -1,4 +1,4 @@
-27248276031222788
+27233212820348024
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95046,6 +95046,13 @@ Integrated Circuit
 25
 25
 Power_Distribution_Board
+EG1218
+EG1218-3
+Switch
+0
+3
+3
+Power_Distribution_Board
 LM2596DSADJG
 D2PAK 5−LEAD CASE 936A−02 ISSUE E_2025-1.1
 Integrated Circuit
@@ -95053,12 +95060,40 @@ Integrated Circuit
 6
 6
 Power_Distribution_Board
+SRP1038A-470M
+47 µH Shielded Drum Core, Wirewound Inductor 3 A 167mOhm Max Nonstandard
+
+0
+2
+2
+Power_Distribution_Board
+SRP1265A-2R2M
+2.2 µH Shielded Drum Core, Wirewound Inductor 22 A 4.2mOhm Max Nonstandard
+
+0
+2
+2
+Power_Distribution_Board
 STM32L052K6T6
 ST LQFP32
 Integrated Circuit
 0
 32
 32
+Power_Distribution_Board
+TR101
+TR1-01-1
+Switch (4-Pin Push)
+0
+4
+4
+Power_Distribution_Board
+USBLC6-2SC6
+SOT23-6L_1
+Integrated Circuit
+0
+6
+6
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
