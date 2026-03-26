@@ -1833,7 +1833,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Distribution_Board:LM2596"
+		(symbol "Power_Distribution_Board:LM2596DSADJG"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1845,8 +1845,8 @@
 					)
 				)
 			)
-			(property "Value" "LM2596"
-				(at 17.018 1.016 0)
+			(property "Value" "LM2596DSADJG"
+				(at 13.462 1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1880,7 +1880,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM2596_0_0"
+			(symbol "LM2596DSADJG_0_0"
 				(pin power_in line
 					(at -2.54 -2.54 0)
 					(length 2.54)
@@ -1954,7 +1954,7 @@
 					)
 				)
 			)
-			(symbol "LM2596_1_0"
+			(symbol "LM2596DSADJG_1_0"
 				(pin input line
 					(at -2.54 -7.62 0)
 					(length 2.54)
@@ -1973,8 +1973,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -2.54 -11.43 0)
+					(length 2.54)
+					(name "Heatsink"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
-			(symbol "LM2596_1_1"
+			(symbol "LM2596DSADJG_1_1"
 				(rectangle
 					(start 0 0)
 					(end 20.32 -15.24)
@@ -2622,24 +2640,6 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 48.26 -44.45 180)
-					(length 2.54)
-					(name "PB7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 48.26 -55.88 180)
 					(length 2.54)
@@ -2743,6 +2743,24 @@
 						)
 					)
 					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 48.26 -44.45 180)
+					(length 2.54)
+					(name "PB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4268,6 +4286,12 @@
 		(uuid "47954bd1-644d-4bf1-867c-b3f20f20b828")
 	)
 	(junction
+		(at 52.07 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e9a2aaa-3a91-4e0f-bada-e7afc6f6aaf8")
+	)
+	(junction
 		(at 320.04 466.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4700,6 +4724,12 @@
 		(uuid "e130de94-1cb0-4268-81cf-16c496183f37")
 	)
 	(junction
+		(at 52.07 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2ddbcf3-b468-4cda-9377-c935497d8273")
+	)
+	(junction
 		(at 519.43 351.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4942,6 +4972,16 @@
 			(type default)
 		)
 		(uuid "02765b36-9f8a-4e2c-8f41-f181cd54f630")
+	)
+	(wire
+		(pts
+			(xy 52.07 81.28) (xy 55.88 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02959a12-f06a-4e3c-ad98-44382c541155")
 	)
 	(wire
 		(pts
@@ -5415,7 +5455,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 45.72) (xy 52.07 52.07)
+			(xy 52.07 45.72) (xy 52.07 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5555,6 +5595,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 49.53) (xy 55.88 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2499d072-fc96-4000-9f61-9a64230526ac")
+	)
+	(wire
+		(pts
 			(xy 439.42 218.44) (xy 464.82 218.44)
 		)
 		(stroke
@@ -5622,6 +5672,16 @@
 			(type default)
 		)
 		(uuid "277da797-32a8-48be-95ad-20dec1f5177f")
+	)
+	(wire
+		(pts
+			(xy 52.07 81.28) (xy 52.07 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "278642be-c5b4-445d-ab88-e6e9c4ffbb0b")
 	)
 	(wire
 		(pts
@@ -6002,6 +6062,16 @@
 			(type default)
 		)
 		(uuid "3cd94a64-edc8-44ae-ab63-0ef6d7c1a3e7")
+	)
+	(wire
+		(pts
+			(xy 52.07 49.53) (xy 52.07 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eef1e4f-ed14-4db7-9c27-72437aed8fd4")
 	)
 	(wire
 		(pts
@@ -8525,7 +8595,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 77.47) (xy 52.07 83.82)
+			(xy 52.07 77.47) (xy 52.07 81.28)
 		)
 		(stroke
 			(width 0)
@@ -10034,6 +10104,83 @@
 		(uuid "ad514949-0a01-46f2-b9dc-07ab1dbfc9e9")
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 134.62 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0001c25d-55f5-4f01-b0f2-43e809b32bb9")
+		(property "Reference" "R4"
+			(at 134.62 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 134.62 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 134.62 74.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-PB3B1002V/6212869"
+			(at 134.62 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±0.1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 134.62 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "ERJ-PB3B1002V"
+			(at 134.62 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2858c88f-3cb1-4deb-a79c-e37200005d19")
+		)
+		(pin "2"
+			(uuid "1c93a986-ee2a-4b19-9b32-45cead5586dd")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 38.1 82.55 0)
 		(unit 1)
@@ -10530,6 +10677,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 242.57 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0aace2ea-a77e-42f8-aed9-da9fa1c49eb8")
+		(property "Reference" "R15"
+			(at 245.11 247.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k"
+			(at 245.11 250.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 240.792 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-PB3B2002V/6212901"
+			(at 242.57 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20 kOhms ±0.1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 242.57 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "ERJ-PB3B2002V"
+			(at 242.57 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "566355db-9173-4fc0-bd0d-bdc312f908ae")
+		)
+		(pin "2"
+			(uuid "29ab0a22-b198-45dc-9cf3-f725aefd15c3")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 353.06 477.52 0)
 		(unit 1)
@@ -10698,7 +10924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 134.62 42.418 90)
 			(effects
 				(font
@@ -10707,7 +10933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/susumu/RG2012P-103-B-T5/1212668"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-PB3B1002V/6212869"
 			(at 134.62 40.64 0)
 			(effects
 				(font
@@ -10716,7 +10942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
+		(property "Description" "10 kOhms ±0.1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 134.62 40.64 0)
 			(effects
 				(font
@@ -10725,7 +10951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "RG2012P-103-B-T5"
+		(property "Model" "ERJ-PB3B1002V"
 			(at 134.62 40.64 90)
 			(effects
 				(font
@@ -10882,82 +11108,6 @@
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 254 458.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f8f44f3-36cf-45b6-ad28-1b21d18e6f32")
-		(property "Reference" "R30"
-			(at 253.746 453.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "205k"
-			(at 253.746 455.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 254 460.248 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB2053V/2025869"
-			(at 254 458.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "205 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
-			(at 254 458.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "ERA-6AEB2053V"
-			(at 254 458.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6745b673-c8cd-4a57-bca4-5ee8bd93bc3d")
-		)
-		(pin "2"
-			(uuid "618e63fd-2d4d-4669-8c6b-95caab8e1b85")
-		)
-		(instances
-			(project "Power-Distribution-Board"
-				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -11136,7 +11286,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 479.298 50.8 90)
 			(effects
 				(font
@@ -11145,7 +11295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB823V/1465795"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-PB3B8202V/6212973"
 			(at 477.52 50.8 0)
 			(effects
 				(font
@@ -11154,7 +11304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "82 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+		(property "Description" "82 kOhms ±0.1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 477.52 50.8 0)
 			(effects
 				(font
@@ -11163,7 +11313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "ERA-6AEB823V"
+		(property "Model" "ERJ-PB3B8202V"
 			(at 477.52 50.8 0)
 			(effects
 				(font
@@ -11182,85 +11332,6 @@
 			(project ""
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 308.61 93.98 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12af522f-a0df-46d5-93be-11d1ffafa916")
-		(property "Reference" "R7"
-			(at 311.15 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 311.15 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 310.388 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/susumu/RG2012P-103-B-T5/1212668"
-			(at 308.61 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
-			(at 308.61 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "RG2012P-103-B-T5"
-			(at 308.61 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9891a4ed-efc6-4d4c-9076-3b004f59982f")
-		)
-		(pin "2"
-			(uuid "a2a9f94c-e604-4027-b512-dab675d56efa")
-		)
-		(instances
-			(project "Power-Distribution-Board"
-				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11294,7 +11365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 536.702 240.03 90)
 			(effects
 				(font
@@ -11303,7 +11374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB2493V/2025877"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-dale/TNPW0603249KBEEA/1607038?s=N4IgjCBcoExaBjKAzAhgGwM4FMA0IB7KAbXAA4AGAZjJHwHYBWATgDZmJ8xXGAWKuuGZVWtfDEbcKgmGVFwAuvgAOAFyggAyqoBOASwB2AcxABffAOggkkNFjyESIHp2et6g9q0H0qrstyCZLxiIGRsgsz03kogahra%2BsZmXN5WNnY4%2BESQpFTMMLwxKuqQWrqGJuYgMBRkjPDWKBhZjrk1vMwABADWAPIAFgC2mCCx8WUAqgZ6qn3IALLYqJgArjrYKSAAtHDpULqrDjmkDQqm1Q1WylBgKjeQEhdAA"
 			(at 538.48 240.03 0)
 			(effects
 				(font
@@ -11312,7 +11383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "249 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+		(property "Description" "249 kOhms ±0.1% 0.21W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film"
 			(at 538.48 240.03 0)
 			(effects
 				(font
@@ -11321,7 +11392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "ERA-6AEB2493V"
+		(property "Model" "TNPW0603249KBEEA"
 			(at 538.48 240.03 0)
 			(effects
 				(font
@@ -11478,6 +11549,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 441.96 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ad671f7-368d-49bf-961c-e3b59d0a888a")
+		(property "Reference" "R14"
+			(at 444.5 243.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k"
+			(at 444.5 246.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 440.182 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-PB3B2002V/6212901"
+			(at 441.96 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20 kOhms ±0.1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 441.96 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "ERJ-PB3B2002V"
+			(at 441.96 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a3db0a8-ccc9-4e9e-a6f9-a60774a6cc2d")
+		)
+		(pin "2"
+			(uuid "2a325a63-f454-4279-82b6-12ca3a263e59")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 130.81 49.53 270)
 		(unit 1)
@@ -11539,85 +11689,6 @@
 			(project ""
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 242.57 364.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c9ddb21-d277-4aaa-8e12-3b2161763562")
-		(property "Reference" "R23"
-			(at 245.11 363.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20k"
-			(at 245.11 365.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 240.792 364.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB203V/1465780"
-			(at 242.57 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
-			(at 242.57 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "ERA-6AEB203V"
-			(at 242.57 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12e3205f-470d-4ea9-908f-6e3114a593bb")
-		)
-		(pin "2"
-			(uuid "765c843c-ea73-4dba-ace8-4b9c9a1fc389")
-		)
-		(instances
-			(project "Power-Distribution-Board"
-				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -12317,85 +12388,6 @@
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 509.27 325.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28ebae14-af2e-458a-aa02-d277b6dc9024")
-		(property "Reference" "R19"
-			(at 511.81 323.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 511.81 326.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 507.492 325.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB104V/1465797"
-			(at 509.27 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
-			(at 509.27 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "ERA-6AEB104V"
-			(at 509.27 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "33e5729b-9dcb-4abc-9090-6edbe2ae784d")
-		)
-		(pin "1"
-			(uuid "7d04ad8e-d0a5-4ffc-9d92-d32b25b796d4")
-		)
-		(instances
-			(project "Power-Distribution-Board"
-				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -13714,82 +13706,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 453.39 354.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37cfde69-1534-42d9-afd6-126e4d6ec187")
-		(property "Reference" "R21"
-			(at 453.136 349.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "374k"
-			(at 453.136 351.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 453.39 356.108 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB3743V/2025894"
-			(at 453.39 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "374 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
-			(at 453.39 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "ERA-6AEB3743V"
-			(at 453.39 354.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "980df5db-272f-4e49-b101-5a7589f42c01")
-		)
-		(pin "2"
-			(uuid "6b65b0bb-8a3e-489a-9969-8c8c1561289e")
-		)
-		(instances
-			(project "Power-Distribution-Board"
-				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 252.73 370.84 0)
 		(unit 1)
@@ -14083,6 +13999,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 308.61 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cb08fdc-0803-4935-a1ee-c4ddbe6598af")
+		(property "Reference" "R7"
+			(at 311.15 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 311.15 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 310.388 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-PB3B1002V/6212869"
+			(at 308.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±0.1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 308.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "ERJ-PB3B1002V"
+			(at 308.61 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "135ef72a-18f3-45f0-829d-02d72c9fd359")
+		)
+		(pin "2"
+			(uuid "b5a95053-5d3c-416c-a6f7-a80e518a111d")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 552.45 482.6 0)
 		(unit 1)
@@ -14308,16 +14303,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 242.57 476.25 0)
+		(at 538.48 378.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3f992131-bc27-47cc-b686-b79aa10bf5e6")
-		(property "Reference" "R33"
-			(at 245.11 474.9799 0)
+		(uuid "42cc3af4-5440-4f5e-99cd-eda936e8da7d")
+		(property "Reference" "R27"
+			(at 541.02 377.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14325,8 +14320,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20k"
-			(at 245.11 477.5199 0)
+		(property "Value" "13k"
+			(at 541.02 379.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14334,8 +14329,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 240.792 476.25 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 536.702 378.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14343,8 +14338,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB203V/1465780"
-			(at 242.57 476.25 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-PB3B1302V/6212881"
+			(at 538.48 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14352,8 +14347,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
-			(at 242.57 476.25 0)
+		(property "Description" "13 kOhms ±0.1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 538.48 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14361,25 +14356,25 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "ERA-6AEB203V"
-			(at 242.57 476.25 0)
+		(property "Model" "ERJ-PB3B1302V"
+			(at 538.48 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "e5ba1bae-8021-4a20-9330-89acea63181e")
 		)
 		(pin "2"
-			(uuid "db8aa8a8-aa3a-4486-a5eb-1688b62767ec")
+			(uuid "b1ff32f4-9c3f-4806-a618-038e14a985d9")
+		)
+		(pin "1"
+			(uuid "9bea8d05-503d-42e2-8e61-9ccfb458d4e7")
 		)
 		(instances
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "R33")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -14733,7 +14728,7 @@
 		(pin "8"
 			(uuid "41fae6d6-fd0f-423c-9708-29e8a1fe8414")
 		)
-		(pin "39"
+		(pin "30"
 			(uuid "b328d2fa-f89c-4495-bc31-bae7f2ba0bbd")
 		)
 		(pin "31"
@@ -14902,85 +14897,6 @@
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 441.96 372.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c14ed20-58b4-4007-aa88-d67fed8033c2")
-		(property "Reference" "R26"
-			(at 444.5 370.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20k"
-			(at 444.5 373.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 440.182 372.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB203V/1465780"
-			(at 441.96 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
-			(at 441.96 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "ERA-6AEB203V"
-			(at 441.96 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c50fa565-b642-4d2f-a8d2-371672c5c5ff")
-		)
-		(pin "2"
-			(uuid "3725ed53-2087-4766-8b1c-cccef45d49af")
-		)
-		(instances
-			(project "Power-Distribution-Board"
-				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -15390,6 +15306,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 538.48 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5352362f-61fd-4b74-9550-425df3a349c6")
+		(property "Reference" "R16"
+			(at 541.02 250.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "13k"
+			(at 541.02 252.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 536.702 251.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-PB3B1302V/6212881"
+			(at 538.48 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "13 kOhms ±0.1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 538.48 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "ERJ-PB3B1302V"
+			(at 538.48 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ec6f146-c80d-4d5b-8e2c-52d644599649")
+		)
+		(pin "1"
+			(uuid "aeb8f96e-400d-4ad6-b179-3aed3ef33921")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 441.96 248.92 0)
 		(unit 1)
@@ -15560,7 +15555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 507.492 198.12 90)
 			(effects
 				(font
@@ -15569,7 +15564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB104V/1465797"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-PB3B1003V/6212983"
 			(at 509.27 198.12 0)
 			(effects
 				(font
@@ -15578,7 +15573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+		(property "Description" "100 kOhms ±0.1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 509.27 198.12 0)
 			(effects
 				(font
@@ -15587,7 +15582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "ERA-6AEB104V"
+		(property "Model" "ERJ-PB3B1003V"
 			(at 509.27 198.12 0)
 			(effects
 				(font
@@ -15606,85 +15601,6 @@
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 509.27 438.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57d5dcc6-bd11-4254-8043-85ccb6502dbd")
-		(property "Reference" "R29"
-			(at 511.81 436.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 511.81 439.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 507.492 438.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB104V/1465797"
-			(at 509.27 438.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
-			(at 509.27 438.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "ERA-6AEB104V"
-			(at 509.27 438.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4c086d18-c21f-455c-a4e1-853bbb660329")
-		)
-		(pin "1"
-			(uuid "9d57db71-aa09-4418-9f8a-138b31031d49")
-		)
-		(instances
-			(project "Power-Distribution-Board"
-				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -15902,83 +15818,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Distribution_Board:LM2596")
-		(at 58.42 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5dc4635e-ba0a-4742-b35a-0d0e2b79acf1")
-		(property "Reference" "U3"
-			(at 68.58 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2596"
-			(at 68.58 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Power_Distribution_Board:LM2596DSADJG"
-			(at 91.948 92.964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/onsemi/LM2596DSADJG/2003290"
-			(at 109.982 88.392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.0 A, Step-Down Switching Regulator"
-			(at 91.186 90.678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "68023226-131d-4c7e-81e3-6f48fdee86a4")
-		)
-		(pin "2"
-			(uuid "8835ceb1-9dda-4264-a36c-98d5546e272c")
-		)
-		(pin "5"
-			(uuid "7b4cb767-9a7a-4874-a2d4-e9ad9272c06c")
-		)
-		(pin "4"
-			(uuid "b7f5183f-9200-4ea7-aecf-3386e69e4b38")
-		)
-		(pin "1"
-			(uuid "04db7c61-a38e-4b55-8138-99c4249f2368")
-		)
-		(instances
-			(project "Power-Distribution-Board"
-				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 466.09 85.09 0)
 		(unit 1)
@@ -16105,6 +15944,85 @@
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 339.09 370.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63378b1c-33a9-4c35-921f-1972d6dea62b")
+		(property "Reference" "R25"
+			(at 341.63 369.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "13k"
+			(at 341.63 372.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 337.312 370.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-PB3B1302V/6212881"
+			(at 339.09 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "13 kOhms ±0.1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 339.09 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "ERJ-PB3B1302V"
+			(at 339.09 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28ddd3e1-a2d3-4241-8556-ec82fae8cf0d")
+		)
+		(pin "1"
+			(uuid "7779fc4d-4350-4288-8590-de97e7a0c3bc")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -16283,7 +16201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 536.702 491.49 90)
 			(effects
 				(font
@@ -16292,7 +16210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB303V/1465784"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RNCF0603BTE30K0/1710090"
 			(at 538.48 491.49 0)
 			(effects
 				(font
@@ -16301,7 +16219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+		(property "Description" "30 kOhms ±0.1% 0.167W, 1/6W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"
 			(at 538.48 491.49 0)
 			(effects
 				(font
@@ -16310,7 +16228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "ERA-6AEB303V"
+		(property "Model" "RNCF0603BTE30K0"
 			(at 538.48 491.49 0)
 			(effects
 				(font
@@ -16336,16 +16254,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 242.57 248.92 0)
+		(at 309.88 429.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6818b20e-cb71-4333-bb69-4b5846a98c2e")
-		(property "Reference" "R15"
-			(at 245.11 247.6499 0)
+		(uuid "6861ff81-901e-4772-b30c-4e2af7714ac6")
+		(property "Reference" "R28"
+			(at 312.42 427.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16353,8 +16271,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20k"
-			(at 245.11 250.1899 0)
+		(property "Value" "100k"
+			(at 312.42 430.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16362,8 +16280,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 240.792 248.92 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 308.102 429.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16371,8 +16289,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB203V/1465780"
-			(at 242.57 248.92 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-PB3B1003V/6212983"
+			(at 309.88 429.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16380,8 +16298,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
-			(at 242.57 248.92 0)
+		(property "Description" "100 kOhms ±0.1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 309.88 429.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16389,25 +16307,25 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "ERA-6AEB203V"
-			(at 242.57 248.92 0)
+		(property "Model" "ERJ-PB3B1003V"
+			(at 309.88 429.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "e6858a93-5219-4387-bb01-551542b44e77")
 		)
 		(pin "2"
-			(uuid "223fa859-200c-47fc-9834-73ee7afa4cf5")
+			(uuid "5f8c1036-90b5-4124-9084-b6ec709e6d72")
+		)
+		(pin "1"
+			(uuid "9ad04acb-5c99-4aec-b74b-7f244ac8bdea")
 		)
 		(instances
-			(project ""
+			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "R15")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -16606,6 +16524,85 @@
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 538.48 367.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c2a5ffd-97c3-4012-a89e-901893c253a6")
+		(property "Reference" "R24"
+			(at 541.02 365.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "182k"
+			(at 541.02 368.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 536.702 367.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-3AEB1823V/2026950"
+			(at 538.48 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "182 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"
+			(at 538.48 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "ERA-3AEB1823V"
+			(at 538.48 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15f26afe-7c16-49f2-babb-7b76864bec4f")
+		)
+		(pin "2"
+			(uuid "9e0e569f-cb1a-487d-badf-ee6c7269f280")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -17110,16 +17107,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 441.96 245.11 0)
+		(at 538.48 480.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "727accab-643d-4726-a68c-07580c7f2b7f")
-		(property "Reference" "R14"
-			(at 444.5 243.8399 0)
+		(uuid "707ae62f-43b9-464a-92d0-d6c10b41420f")
+		(property "Reference" "R34"
+			(at 541.02 478.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17127,8 +17124,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20k"
-			(at 444.5 246.3799 0)
+		(property "Value" "220k"
+			(at 541.02 481.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17136,8 +17133,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 440.182 245.11 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 536.702 480.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17145,8 +17142,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB203V/1465780"
-			(at 441.96 245.11 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RNCF0603BTE220K/6262353"
+			(at 538.48 480.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17154,8 +17151,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
-			(at 441.96 245.11 0)
+		(property "Description" "220 kOhms ±0.1% 0.167W, 1/6W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"
+			(at 538.48 480.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17163,8 +17160,8 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "ERA-6AEB203V"
-			(at 441.96 245.11 0)
+		(property "Model" "RNCF0603BTE220K"
+			(at 538.48 480.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17173,15 +17170,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "41dbbca1-3fee-48c2-93a7-961521a6a2c4")
+			(uuid "afce6497-a9ce-4f85-8656-7aa2821e98e7")
 		)
 		(pin "2"
-			(uuid "73a39c17-2c90-41f8-acaf-60c1dfaeb54b")
+			(uuid "d5a8462e-155d-4d14-af3a-7fc8750f58c3")
 		)
 		(instances
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "R14")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -17530,85 +17527,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 339.09 243.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a235894-1851-415c-8d7a-a684be00e541")
-		(property "Reference" "R13"
-			(at 341.63 242.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "249k"
-			(at 341.63 245.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 337.312 243.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB2493V/2025877"
-			(at 339.09 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "249 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
-			(at 339.09 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "ERA-6AEB2493V"
-			(at 339.09 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed9688ad-d214-4c96-86d9-2a50d5f8cbf0")
-		)
-		(pin "2"
-			(uuid "307f7af8-8829-4e38-b791-5bb4a464cbaa")
-		)
-		(instances
-			(project "Power-Distribution-Board"
-				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 452.12 374.65 0)
 		(unit 1)
@@ -17681,6 +17599,85 @@
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 242.57 476.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c99915f-57d9-43b0-866c-21c6338a65ca")
+		(property "Reference" "R33"
+			(at 245.11 474.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k"
+			(at 245.11 477.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 240.792 476.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-PB3B2002V/6212901"
+			(at 242.57 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20 kOhms ±0.1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 242.57 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "ERJ-PB3B2002V"
+			(at 242.57 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28f54784-de09-4faf-b4db-02e8641e30c8")
+		)
+		(pin "2"
+			(uuid "656551f4-9f9b-4a95-b94d-3551e6d58e0a")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -17933,7 +17930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 348.488 90)
 			(effects
 				(font
@@ -17942,7 +17939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB3743V/2025894"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/RT0603BRD07374KL/5927935"
 			(at 254 346.71 0)
 			(effects
 				(font
@@ -17951,7 +17948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "374 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+		(property "Description" "374 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film"
 			(at 254 346.71 0)
 			(effects
 				(font
@@ -17960,7 +17957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "ERA-6AEB3743V"
+		(property "Model" "RT0603BRD07374KL"
 			(at 254 346.71 90)
 			(effects
 				(font
@@ -18045,6 +18042,85 @@
 			(project ""
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 441.96 372.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8840756f-b66e-45b5-b45a-e372a0b65277")
+		(property "Reference" "R26"
+			(at 444.5 370.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k"
+			(at 444.5 373.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 440.182 372.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-PB3B2002V/6212901"
+			(at 441.96 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20 kOhms ±0.1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 441.96 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "ERJ-PB3B2002V"
+			(at 441.96 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe5c2298-830d-44ea-a8f6-9e28667265e2")
+		)
+		(pin "2"
+			(uuid "8c89987a-0aa5-413a-aa3c-b908e43cc952")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -18295,7 +18371,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 109.728 44.45 90)
 			(effects
 				(font
@@ -18304,7 +18380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB303V/1465784"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-PB3B3002V/6212921"
 			(at 107.95 44.45 0)
 			(effects
 				(font
@@ -18313,7 +18389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+		(property "Description" "30 kOhms ±0.1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 107.95 44.45 0)
 			(effects
 				(font
@@ -18322,7 +18398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "ERA-6AEB303V"
+		(property "Model" "ERJ-PB3B3002V"
 			(at 107.95 44.45 0)
 			(effects
 				(font
@@ -18570,6 +18646,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 309.88 201.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fa5a65e-747f-40c6-88e4-819b7e5527f8")
+		(property "Reference" "R9"
+			(at 312.42 200.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 312.42 203.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 308.102 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-PB3B1003V/6212983"
+			(at 309.88 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 kOhms ±0.1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 309.88 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "ERJ-PB3B1003V"
+			(at 309.88 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f391e76f-ecc2-4252-849c-48369313b558")
+		)
+		(pin "1"
+			(uuid "0b43fc40-4a1c-4b4b-8785-260dc54b1d70")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_B_Micro")
 		(at 534.67 77.47 0)
 		(mirror y)
@@ -18771,7 +18926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 337.312 471.17 90)
 			(effects
 				(font
@@ -18780,7 +18935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB224V/1465805"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RNCF0603BTE220K/6262353"
 			(at 339.09 471.17 0)
 			(effects
 				(font
@@ -18789,7 +18944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "220 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+		(property "Description" "220 kOhms ±0.1% 0.167W, 1/6W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"
 			(at 339.09 471.17 0)
 			(effects
 				(font
@@ -18798,7 +18953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "ERA-6AEB224V"
+		(property "Model" "RNCF0603BTE220K"
 			(at 339.09 471.17 0)
 			(effects
 				(font
@@ -19694,7 +19849,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a50d63ac-a08e-4177-84c7-cdd29c721227")
+		(uuid "a2be6af4-2d63-45ed-80ef-9c2174f254d2")
 		(property "Reference" "R18"
 			(at 312.42 316.2299 0)
 			(effects
@@ -19713,7 +19868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 308.102 317.5 90)
 			(effects
 				(font
@@ -19722,7 +19877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB104V/1465797"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-PB3B1003V/6212983"
 			(at 309.88 317.5 0)
 			(effects
 				(font
@@ -19731,7 +19886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+		(property "Description" "100 kOhms ±0.1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 309.88 317.5 0)
 			(effects
 				(font
@@ -19740,7 +19895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "ERA-6AEB104V"
+		(property "Model" "ERJ-PB3B1003V"
 			(at 309.88 317.5 0)
 			(effects
 				(font
@@ -19750,94 +19905,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "82c7505b-2eed-4ddc-a446-499e7772024d")
+			(uuid "c7bfc0b5-cd45-43c9-90f7-a5d5d6e93503")
 		)
 		(pin "1"
-			(uuid "838f7268-7e0f-4409-93e4-70d6f6b2eb48")
+			(uuid "24126f07-e2b4-446c-888b-3b978db971c6")
 		)
 		(instances
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 538.48 480.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a680d07d-0bac-49f2-98f9-ccb8351e9df4")
-		(property "Reference" "R34"
-			(at 541.02 478.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220k"
-			(at 541.02 481.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 536.702 480.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB224V/1465805"
-			(at 538.48 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "220 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
-			(at 538.48 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "ERA-6AEB224V"
-			(at 538.48 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e302ff6-7a6d-4734-90cd-a2d924d16d50")
-		)
-		(pin "2"
-			(uuid "1221feb9-d91b-47bb-9cb5-4b0dbb46603d")
-		)
-		(instances
-			(project "Power-Distribution-Board"
-				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -19904,6 +19980,161 @@
 			(project ""
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 509.27 438.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa66451d-e8a0-4bc0-8b38-6bcefa899b0d")
+		(property "Reference" "R29"
+			(at 511.81 436.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 511.81 439.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 507.492 438.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-PB3B1003V/6212983"
+			(at 509.27 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 kOhms ±0.1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 509.27 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "ERJ-PB3B1003V"
+			(at 509.27 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed118ad6-60fa-4175-9648-7c30ebe00fef")
+		)
+		(pin "1"
+			(uuid "1bc83864-3ad0-4575-9e2d-a464913db8ba")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 453.39 354.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa69160d-cfbf-46f1-bb62-ad86ec12d60f")
+		(property "Reference" "R21"
+			(at 453.136 349.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "374k"
+			(at 453.136 351.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 453.39 356.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/RT0603BRD07374KL/5927935"
+			(at 453.39 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "374 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film"
+			(at 453.39 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "RT0603BRD07374KL"
+			(at 453.39 354.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34681c69-5f33-455e-b25b-241d5139fbcc")
+		)
+		(pin "2"
+			(uuid "2be4d0dc-2606-4950-a4e6-34bea1e77e35")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -20148,7 +20379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 337.312 255.27 90)
 			(effects
 				(font
@@ -20157,7 +20388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB133V/1465776"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-PB3B1302V/6212881"
 			(at 339.09 255.27 0)
 			(effects
 				(font
@@ -20166,7 +20397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "13 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+		(property "Description" "13 kOhms ±0.1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 339.09 255.27 0)
 			(effects
 				(font
@@ -20175,7 +20406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "ERA-6AEB133V"
+		(property "Model" "ERJ-PB3B1302V"
 			(at 339.09 255.27 0)
 			(effects
 				(font
@@ -20332,6 +20563,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Distribution_Board:LM2596DSADJG")
+		(at 58.42 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae364602-6851-4d02-ae85-1dc3ca544bc2")
+		(property "Reference" "U2"
+			(at 68.58 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2596DSADJG"
+			(at 68.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Power_Distribution_Board:LM2596DSADJG"
+			(at 91.948 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/onsemi/LM2596DSADJG/2003290"
+			(at 109.982 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.0 A, Step-Down Switching Regulator"
+			(at 91.186 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "0430ea2f-0d44-474c-86ed-156e8832702f")
+		)
+		(pin "1"
+			(uuid "5512c3a5-190d-46fe-8b04-a83bb8ebe187")
+		)
+		(pin "2"
+			(uuid "0c7539b5-3d06-4e9c-88dd-08a288c79a29")
+		)
+		(pin "4"
+			(uuid "a677459c-6e34-4849-b3aa-5fa90c1f186e")
+		)
+		(pin "3"
+			(uuid "d80c5451-d661-4423-b406-c36de67ffca2")
+		)
+		(pin "5"
+			(uuid "c5c18a05-d882-467b-9d1b-04a5b5f85f5d")
+		)
+		(instances
+			(project ""
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 534.67 87.63 0)
 		(unit 1)
@@ -20478,85 +20789,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 309.88 201.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1ea81a9-18bd-4822-9c5f-a6092bc40e4e")
-		(property "Reference" "R9"
-			(at 312.42 200.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 312.42 203.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 308.102 201.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB104V/1465797"
-			(at 309.88 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
-			(at 309.88 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "ERA-6AEB104V"
-			(at 309.88 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a88954f0-58c8-4a48-8885-2a76e844fd67")
-		)
-		(pin "1"
-			(uuid "4f542b8c-fcb4-4492-a8bb-6baffe98bdf8")
-		)
-		(instances
-			(project "Power-Distribution-Board"
-				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 339.09 359.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20583,7 +20815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 337.312 359.41 90)
 			(effects
 				(font
@@ -20592,7 +20824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB1823V/2025865"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-3AEB1823V/2026950"
 			(at 339.09 359.41 0)
 			(effects
 				(font
@@ -20601,7 +20833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "182 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+		(property "Description" "182 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"
 			(at 339.09 359.41 0)
 			(effects
 				(font
@@ -20610,7 +20842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "ERA-6AEB1823V"
+		(property "Model" "ERA-3AEB1823V"
 			(at 339.09 359.41 0)
 			(effects
 				(font
@@ -20859,85 +21091,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 538.48 367.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b86b381f-af1d-46b3-b593-e3a9e6ace3d5")
-		(property "Reference" "R24"
-			(at 541.02 365.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "182k"
-			(at 541.02 368.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 536.702 367.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB1823V/2025865"
-			(at 538.48 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "182 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
-			(at 538.48 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "ERA-6AEB1823V"
-			(at 538.48 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58291f08-3a87-4f21-83eb-bdee6174f8eb")
-		)
-		(pin "2"
-			(uuid "d3ba059f-1203-4850-97f4-5c2521154282")
-		)
-		(instances
-			(project "Power-Distribution-Board"
-				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 434.34 369.57 0)
 		(unit 1)
@@ -21005,41 +21158,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 72.39 90)
+		(at 254 231.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbf9f0d3-df7e-43a8-b706-2342ba82da71")
-		(property "Reference" "R4"
-			(at 134.62 66.04 90)
+		(uuid "bb355a86-0419-4ba3-88bf-2e45d1d81122")
+		(property "Reference" "R11"
+			(at 253.746 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 134.62 68.58 90)
+		(property "Value" "499k"
+			(at 253.746 228.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 134.62 74.168 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/susumu/RG2012P-103-B-T5/1212668"
-			(at 134.62 72.39 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 254 232.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21047,8 +21190,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
-			(at 134.62 72.39 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/koa-speer-electronics-inc/RN73H1JTTD4993B25/10685917"
+			(at 254 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21056,8 +21199,17 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "RG2012P-103-B-T5"
-			(at 134.62 72.39 90)
+		(property "Description" "499 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Metal Film"
+			(at 254 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "RN73H1JTTD4993B25"
+			(at 254 231.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21066,15 +21218,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "bec61235-204b-4991-ba60-dfaaf4e35c12")
+			(uuid "0ecbcfdc-d3f9-4e8c-9603-45c9c96e7035")
 		)
 		(pin "2"
-			(uuid "db238c4e-8a13-42f6-9d80-1bd7910296c1")
+			(uuid "dbd61d56-ac2b-4d6b-b3b2-0f13c252f965")
 		)
 		(instances
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "R4")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -21141,85 +21293,6 @@
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 538.48 378.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c035d6ee-5ab7-4288-b449-be98294132a1")
-		(property "Reference" "R27"
-			(at 541.02 377.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "13k"
-			(at 541.02 379.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 536.702 378.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB133V/1465776"
-			(at 538.48 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "13 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
-			(at 538.48 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "ERA-6AEB133V"
-			(at 538.48 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6982f0ba-7070-4436-bf8f-bd44afc1a9cc")
-		)
-		(pin "1"
-			(uuid "9ae40703-118a-4c9f-a8f7-25cd04aaf8c7")
-		)
-		(instances
-			(project "Power-Distribution-Board"
-				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -21372,35 +21445,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 441.96 485.14 0)
+		(lib_id "Power_Distribution_Board:LM2596DSADJG")
+		(at 58.42 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c774a8d7-508c-4723-b19b-f24e0be7270c")
-		(property "Reference" "R36"
-			(at 444.5 483.8699 0)
+		(uuid "c2ebc0e8-76c8-463b-a908-0966cc128f3c")
+		(property "Reference" "U3"
+			(at 68.58 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "20k"
-			(at 444.5 486.4099 0)
+		(property "Value" "LM2596DSADJG"
+			(at 68.58 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 440.182 485.14 90)
+		(property "Footprint" "Power_Distribution_Board:LM2596DSADJG"
+			(at 91.948 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21408,8 +21479,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB203V/1465780"
-			(at 441.96 485.14 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/onsemi/LM2596DSADJG/2003290"
+			(at 109.982 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21417,8 +21488,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
-			(at 441.96 485.14 0)
+		(property "Description" "3.0 A, Step-Down Switching Regulator"
+			(at 91.186 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21426,25 +21497,28 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "ERA-6AEB203V"
-			(at 441.96 485.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "6"
+			(uuid "f00dc068-61d8-4b1f-a213-0a749262e10e")
 		)
 		(pin "1"
-			(uuid "3a946dbd-9d30-4c2d-aac0-aaeda6e6b8ab")
+			(uuid "025880ec-042d-475c-a4f3-3fecebecfaa7")
 		)
 		(pin "2"
-			(uuid "063046c5-3467-489a-a93c-f1c8f9c61156")
+			(uuid "833f7edc-1939-4a38-8230-2fe346d7911e")
+		)
+		(pin "4"
+			(uuid "9f54272c-42f2-45e6-b652-6914749a7b9d")
+		)
+		(pin "3"
+			(uuid "09875c8c-6a40-4c3b-b315-05cfee8667f2")
+		)
+		(pin "5"
+			(uuid "c9398d1f-6325-4dd3-a0d1-33b1906ae289")
 		)
 		(instances
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "R36")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -21541,7 +21615,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 453.39 229.108 90)
 			(effects
 				(font
@@ -21550,7 +21624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB4993V/2025906"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/koa-speer-electronics-inc/RN73H1JTTD4993B25/10685917"
 			(at 453.39 227.33 0)
 			(effects
 				(font
@@ -21559,7 +21633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "499 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+		(property "Description" "499 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Metal Film"
 			(at 453.39 227.33 0)
 			(effects
 				(font
@@ -21568,7 +21642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "ERA-6AEB4993V"
+		(property "Model" "RN73H1JTTD4993B25"
 			(at 453.39 227.33 90)
 			(effects
 				(font
@@ -21594,16 +21668,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 339.09 482.6 0)
+		(at 339.09 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cc2f79d7-43ec-4834-89cb-62a49eaa815e")
-		(property "Reference" "R35"
-			(at 341.63 481.3299 0)
+		(uuid "cc52d79f-7a04-4d44-ba0a-6b39edd84fa2")
+		(property "Reference" "R13"
+			(at 341.63 242.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21611,8 +21685,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30k"
-			(at 341.63 483.8699 0)
+		(property "Value" "249k"
+			(at 341.63 245.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21620,8 +21694,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 337.312 482.6 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 337.312 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21629,8 +21703,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB303V/1465784"
-			(at 339.09 482.6 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-dale/TNPW0603249KBEEA/1607038?s=N4IgjCBcoExaBjKAzAhgGwM4FMA0IB7KAbXAA4AGAZjJHwHYBWATgDZmJ8xXGAWKuuGZVWtfDEbcKgmGVFwAuvgAOAFyggAyqoBOASwB2AcxABffAOggkkNFjyESIHp2et6g9q0H0qrstyCZLxiIGRsgsz03kogahra%2BsZmXN5WNnY4%2BESQpFTMMLwxKuqQWrqGJuYgMBRkjPDWKBhZjrk1vMwABADWAPIAFgC2mCCx8WUAqgZ6qn3IALLYqJgArjrYKSAAtHDpULqrDjmkDQqm1Q1WylBgKjeQEhdAA"
+			(at 339.09 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21638,8 +21712,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
-			(at 339.09 482.6 0)
+		(property "Description" "249 kOhms ±0.1% 0.21W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film"
+			(at 339.09 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21647,102 +21721,25 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "ERA-6AEB303V"
-			(at 339.09 482.6 0)
+		(property "Model" "TNPW0603249KBEEA"
+			(at 339.09 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "aff5a02c-5ece-42ba-ab8b-d9345f9eba35")
 		)
 		(pin "1"
-			(uuid "4c0d0a2b-f3ef-442c-b1c9-ec6da9f70bbb")
+			(uuid "340d27eb-ea78-47ee-9555-84e606ebad33")
+		)
+		(pin "2"
+			(uuid "70767520-4f57-4755-9a1a-282e83f5e707")
 		)
 		(instances
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Distribution_Board:LM2596")
-		(at 58.42 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd9a38ae-cc21-490b-a3b4-211098614150")
-		(property "Reference" "U2"
-			(at 68.58 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2596"
-			(at 68.58 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Power_Distribution_Board:LM2596DSADJG"
-			(at 91.948 61.214 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/onsemi/LM2596DSADJG/2003290"
-			(at 109.982 56.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.0 A, Step-Down Switching Regulator"
-			(at 91.186 58.928 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1ec4d882-4e03-4952-ba0e-549e8842b201")
-		)
-		(pin "2"
-			(uuid "7e2e5bf0-c689-4f13-9b5d-e49fc9c34209")
-		)
-		(pin "5"
-			(uuid "6e72188e-2dee-4bc8-bd76-7dfdd3121f77")
-		)
-		(pin "4"
-			(uuid "90e106b0-5435-493e-9301-37c5fd3733e9")
-		)
-		(pin "1"
-			(uuid "a71d6b01-e12f-4bfd-b05c-73b88db743f6")
-		)
-		(instances
-			(project ""
-				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "U2")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -21881,6 +21878,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 339.09 482.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfc09aee-22f2-457f-bd04-af4a50250a42")
+		(property "Reference" "R35"
+			(at 341.63 481.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30k"
+			(at 341.63 483.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 337.312 482.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RNCF0603BTE30K0/1710090"
+			(at 339.09 482.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "30 kOhms ±0.1% 0.167W, 1/6W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"
+			(at 339.09 482.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "RNCF0603BTE30K0"
+			(at 339.09 482.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8acb1df1-a864-4cbc-b381-72cbf00f4f46")
+		)
+		(pin "1"
+			(uuid "8dcceb3f-6013-4d06-b797-937fa97014ac")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 509.27 325.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d22ede27-d0e2-445c-829e-4b339e88f69d")
+		(property "Reference" "R19"
+			(at 511.81 323.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 511.81 326.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 507.492 325.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-PB3B1003V/6212983"
+			(at 509.27 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 kOhms ±0.1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 509.27 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "ERJ-PB3B1003V"
+			(at 509.27 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9df7df15-fc70-41b0-9c1e-e83584452cac")
+		)
+		(pin "1"
+			(uuid "328444bc-e3db-4d8d-b298-b0a2cbddf18d")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 439.42 449.58 0)
 		(unit 1)
@@ -22007,6 +22162,85 @@
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 242.57 364.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3bc05c1-154e-4bac-9d70-f67582b961b0")
+		(property "Reference" "R23"
+			(at 245.11 363.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k"
+			(at 245.11 365.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 240.792 364.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-PB3B2002V/6212901"
+			(at 242.57 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20 kOhms ±0.1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 242.57 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "ERJ-PB3B2002V"
+			(at 242.57 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c13f1957-29fa-44b8-af93-d694efa198d3")
+		)
+		(pin "2"
+			(uuid "aca3c779-16bb-4f9f-891b-0a026092742c")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -22559,43 +22793,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 538.48 251.46 0)
+		(at 254 458.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da0aebd1-9fba-4d72-9325-761b7714a7dc")
-		(property "Reference" "R16"
-			(at 541.02 250.1899 0)
+		(uuid "d9d90c90-9929-4fe6-929c-d9afb4445550")
+		(property "Reference" "R30"
+			(at 253.746 453.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "13k"
-			(at 541.02 252.7299 0)
+		(property "Value" "205k"
+			(at 253.746 455.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 536.702 251.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB133V/1465776"
-			(at 538.48 251.46 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 254 460.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22603,8 +22825,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "13 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
-			(at 538.48 251.46 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-dale/TNPW0603205KBEEA/1607028?s=N4IgjCBcoExaBjKAzAhgGwM4FMA0IB7KAbXAA4AGAZjJHwHYBWATgDZmJ8xXGAWKuuGYxerQWGZVWtfDEbcKgmGWlwAuvgAOAFyggAytoBOASwB2AcxABffAOggkkNFjyESIHp0%2Bt6g9mIMVN5k3IJkvDIgzPRiGiA6eoamljZcYg5OLjj4RJCkVMKiIPGJkAbG5la2IDAUZIzwjigYOe75tRSMAAQA1gDyABYAtpglWrrlAKpmJtr9yACy2KiYAK5G2GkgALRwmVDGa255pI1q1jX7pJuYJpjaBEZj8RmgJgAmejtgFN5lIEE2gAnpotuVVkh8ABHEF6GzWIA"
+			(at 254 458.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22612,8 +22834,8 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "ERA-6AEB133V"
-			(at 538.48 251.46 0)
+		(property "Description" "205 kOhms ±0.1% 0.21W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film"
+			(at 254 458.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22621,16 +22843,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "02465e83-b69a-441a-ac83-a6f40a94e763")
+		(property "Model" "TNPW0603205KBEEA"
+			(at 254 458.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "e760aed9-da36-42c3-9717-9de389945b1f")
+			(uuid "3c07638f-6857-4937-8c41-eec8ea660f51")
+		)
+		(pin "2"
+			(uuid "24c3c8d6-c947-4c3a-98ae-7e2ffa5132c2")
 		)
 		(instances
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "R16")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -22872,7 +23103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 488.95 57.912 90)
 			(effects
 				(font
@@ -22881,7 +23112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB333V/1465785"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-PB3B3302V/6212926"
 			(at 488.95 59.69 0)
 			(effects
 				(font
@@ -22890,7 +23121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+		(property "Description" "33 kOhms ±0.1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 488.95 59.69 0)
 			(effects
 				(font
@@ -22899,7 +23130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "ERA-6AEB333V"
+		(property "Model" "ERJ-PB3B3302V"
 			(at 488.95 59.69 90)
 			(effects
 				(font
@@ -22918,85 +23149,6 @@
 			(project ""
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 339.09 370.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2f124c9-3e08-447d-9818-2880b0318cd1")
-		(property "Reference" "R25"
-			(at 341.63 369.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "13k"
-			(at 341.63 372.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 337.312 370.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB133V/1465776"
-			(at 339.09 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "13 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
-			(at 339.09 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "ERA-6AEB133V"
-			(at 339.09 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "09704855-b210-4945-b1ee-e839d7732336")
-		)
-		(pin "1"
-			(uuid "69a73ee2-a925-4b1b-b0a5-ba37d167ffcd")
-		)
-		(instances
-			(project "Power-Distribution-Board"
-				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -23238,7 +23390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 453.39 469.138 90)
 			(effects
 				(font
@@ -23247,7 +23399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB2053V/2025869"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-dale/TNPW0603205KBEEA/1607028?s=N4IgjCBcoExaBjKAzAhgGwM4FMA0IB7KAbXAA4AGAZjJHwHYBWATgDZmJ8xXGAWKuuGYxerQWGZVWtfDEbcKgmGWlwAuvgAOAFyggAytoBOASwB2AcxABffAOggkkNFjyESIHp0%2Bt6g9mIMVN5k3IJkvDIgzPRiGiA6eoamljZcYg5OLjj4RJCkVMKiIPGJkAbG5la2IDAUZIzwjigYOe75tRSMAAQA1gDyABYAtpglWrrlAKpmJtr9yACy2KiYAK5G2GkgALRwmVDGa255pI1q1jX7pJuYJpjaBEZj8RmgJgAmejtgFN5lIEE2gAnpotuVVkh8ABHEF6GzWIA"
 			(at 453.39 467.36 0)
 			(effects
 				(font
@@ -23256,7 +23408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "205 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+		(property "Description" "205 kOhms ±0.1% 0.21W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film"
 			(at 453.39 467.36 0)
 			(effects
 				(font
@@ -23265,7 +23417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "ERA-6AEB2053V"
+		(property "Model" "TNPW0603205KBEEA"
 			(at 453.39 467.36 90)
 			(effects
 				(font
@@ -23350,82 +23502,6 @@
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 254 231.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f900af92-d84a-49ea-88f8-1956b3257033")
-		(property "Reference" "R11"
-			(at 253.746 226.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "499k"
-			(at 253.746 228.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 254 232.918 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB4993V/2025906"
-			(at 254 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "499 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
-			(at 254 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "ERA-6AEB4993V"
-			(at 254 231.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ecf2346-a838-420a-a5a4-8f54600201a2")
-		)
-		(pin "2"
-			(uuid "2af2bd22-fd3e-4ba9-915f-42934846deee")
-		)
-		(instances
-			(project "Power-Distribution-Board"
-				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -23521,16 +23597,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 309.88 429.26 0)
+		(at 441.96 485.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fa0a286f-68af-4a64-9181-54ab1e5d01bb")
-		(property "Reference" "R28"
-			(at 312.42 427.9899 0)
+		(uuid "f9ddea44-e9d7-4440-9238-fd360fdce480")
+		(property "Reference" "R36"
+			(at 444.5 483.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23538,8 +23614,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 312.42 430.5299 0)
+		(property "Value" "20k"
+			(at 444.5 486.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23547,8 +23623,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 308.102 429.26 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 440.182 485.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23556,8 +23632,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERA-6AEB104V/1465797"
-			(at 309.88 429.26 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-PB3B2002V/6212901"
+			(at 441.96 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23565,8 +23641,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
-			(at 309.88 429.26 0)
+		(property "Description" "20 kOhms ±0.1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 441.96 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23574,25 +23650,25 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "ERA-6AEB104V"
-			(at 309.88 429.26 0)
+		(property "Model" "ERJ-PB3B2002V"
+			(at 441.96 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "c0e9a557-ce16-418b-ab21-2933548800c0")
 		)
 		(pin "1"
-			(uuid "5079f825-72ca-4446-94b0-df445d1760e9")
+			(uuid "47962d91-f9eb-4ee4-a916-116ea41bd232")
+		)
+		(pin "2"
+			(uuid "bc59bc69-484e-4e4c-9e7f-40c3ff419440")
 		)
 		(instances
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "R28")
+					(reference "R36")
 					(unit 1)
 				)
 			)
