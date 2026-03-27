@@ -6,7 +6,7 @@
 	(descr "EG1218-3")
 	(tags "Switch")
 	(property "Reference" "REF**"
-		(at -2.925 -3.925 0)
+		(at 0 -3.925 0)
 		(layer "F.SilkS")
 		(uuid "d7052b16-7680-4f56-8b25-1e3c0cf77d25")
 		(effects

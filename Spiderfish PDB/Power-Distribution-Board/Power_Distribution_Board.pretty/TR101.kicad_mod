@@ -6,7 +6,7 @@
 	(descr "TR1-01-1")
 	(tags "Switch (4-Pin Push)")
 	(property "Reference" "REF**"
-		(at 0.725 -8.05 0)
+		(at 0 -8.05 0)
 		(layer "F.SilkS")
 		(uuid "2f1ab1b4-df49-4693-a9bb-bd9e68733347")
 		(effects

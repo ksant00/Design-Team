@@ -1,4 +1,4 @@
-27233212820572584
+27240312527442385
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95081,6 +95081,13 @@ Integrated Circuit
 32
 32
 Power_Distribution_Board
+TB002-500-02BE
+
+
+0
+2
+2
+Power_Distribution_Board
 TR101
 TR1-01-1
 Switch (4-Pin Push)
@@ -95094,6 +95101,27 @@ Integrated Circuit
 0
 6
 6
+Power_Distribution_Board
+XT90PBF
+XT90PB-F-3
+Connector
+0
+2
+2
+Power_Distribution_Board
+XT90PWF
+XT90PW-F-1
+Connector
+0
+4
+4
+Power_Distribution_Board
+XT90PWM
+XT90PW-M-2
+Connector
+0
+4
+4
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf

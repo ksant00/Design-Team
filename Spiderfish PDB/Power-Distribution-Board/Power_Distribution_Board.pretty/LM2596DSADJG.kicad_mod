@@ -5,8 +5,8 @@
 	(layer "F.Cu")
 	(descr "D2PAK 5−LEAD CASE 936A−02 ISSUE E_2025-1.1")
 	(tags "Integrated Circuit")
-	(property "Reference" "U**"
-		(at -4.5 -10 0)
+	(property "Reference" "REF**"
+		(at 0 -10.16 0)
 		(layer "F.SilkS")
 		(uuid "2d36b852-45af-4011-ac13-c5c89bef54c1")
 		(effects

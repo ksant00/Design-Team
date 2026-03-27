@@ -6,7 +6,7 @@
 	(descr "SOT23-6L_1")
 	(tags "Integrated Circuit")
 	(property "Reference" "REF**"
-		(at 0.375 -2.775 0)
+		(at 0 -2.775 0)
 		(layer "F.SilkS")
 		(uuid "818141c5-505d-49d9-8c33-61ecefb2c777")
 		(effects
