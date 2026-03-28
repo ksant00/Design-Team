@@ -118,6 +118,17 @@
 		(uuid "d64bd3c7-0f0c-4864-af62-2224ef5a9bf1")
 	)
 	(fp_rect
+		(start -7.354 -6.604)
+		(end 7.354 6.604)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0376f49a-4204-45a4-ae58-aa956139f78d")
+	)
+	(fp_rect
 		(start -6.75 -6.25)
 		(end 6.75 6.25)
 		(stroke

@@ -18,11 +18,12 @@
 	(property "Value" "TB002-500-02BE"
 		(at 12.502 4.861 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "a39700b8-5f5c-4ff2-be01-8e502f458dc6")
 		(effects
 			(font
-				(size 1.4 1.4)
-				(thickness 0.15)
+				(size 1.27 1.27)
+				(thickness 0.254)
 			)
 		)
 	)
@@ -192,6 +193,17 @@
 		(fill no)
 		(layer "F.Fab")
 		(uuid "cb95aae3-f543-40fd-800e-f6bd187fc9fd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 0 0)
+		(layer "F.Fab")
+		(uuid "96d6c18c-c5a0-4a8b-b14b-addfa48a79ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
 	)
 	(pad "1" thru_hole rect
 		(at 0 0)

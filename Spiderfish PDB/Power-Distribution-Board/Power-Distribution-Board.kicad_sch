@@ -4428,7 +4428,7 @@
 		(uuid "32715dd8-b8cc-430d-9c20-b4ed2ed1a072")
 	)
 	(junction
-		(at 439.42 337.82)
+		(at 441.96 337.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "357ea8e7-fcca-486c-bc1a-33bc29b1cce6")
@@ -4734,7 +4734,7 @@
 		(uuid "97556c61-6d23-4604-8019-244ef09ec2bd")
 	)
 	(junction
-		(at 439.42 347.98)
+		(at 441.96 347.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98505ce1-2199-414d-9b05-3e83b0279e21")
@@ -4764,7 +4764,7 @@
 		(uuid "9c5f0df2-ee50-4422-97fb-f7715155cd11")
 	)
 	(junction
-		(at 439.42 220.98)
+		(at 443.23 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cc2ac67-e77b-4baf-9404-ac2fa5c358c7")
@@ -4824,7 +4824,7 @@
 		(uuid "b57d3fc1-1406-4eb6-af79-e3c5fd383a78")
 	)
 	(junction
-		(at 439.42 215.9)
+		(at 443.23 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6413941-5676-4297-b349-30fb28535888")
@@ -4866,7 +4866,7 @@
 		(uuid "bc5b449c-f4be-40d1-8f75-e1f1b8c27241")
 	)
 	(junction
-		(at 439.42 213.36)
+		(at 443.23 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd187204-303a-45a5-8957-178a651dd501")
@@ -4902,7 +4902,7 @@
 		(uuid "c4525f6d-b912-4e69-906c-8d0bbdd96eb6")
 	)
 	(junction
-		(at 439.42 345.44)
+		(at 441.96 345.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca435f51-717d-47b2-b5a5-4cf6b2a0126a")
@@ -4914,7 +4914,7 @@
 		(uuid "cea80499-ecc7-445f-8d23-6be28e06e0dd")
 	)
 	(junction
-		(at 439.42 210.82)
+		(at 443.23 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d021281d-1255-400f-80c5-e994919e2b39")
@@ -4944,7 +4944,7 @@
 		(uuid "dac2da3f-0aac-4411-ac9e-5f5f9e380d2b")
 	)
 	(junction
-		(at 439.42 340.36)
+		(at 441.96 340.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db56fa8b-77fa-482a-8d16-e6081a782339")
@@ -5058,7 +5058,7 @@
 		(uuid "f6eff6c8-c9fc-4a04-b6af-b98514bd2466")
 	)
 	(junction
-		(at 439.42 342.9)
+		(at 441.96 342.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9cfab80-0360-44be-834f-45bfe3927191")
@@ -5070,7 +5070,7 @@
 		(uuid "f9e8e1cb-2e67-4598-9957-6244a37c50db")
 	)
 	(junction
-		(at 439.42 218.44)
+		(at 443.23 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc9f5553-fb37-4017-b26b-8ce012886b8d")
@@ -5157,6 +5157,16 @@
 	)
 	(wire
 		(pts
+			(xy 396.24 77.47) (xy 462.28 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "008d09d9-650f-4197-adfe-1dbcfeff266f")
+	)
+	(wire
+		(pts
 			(xy 459.74 379.73) (xy 459.74 382.27)
 		)
 		(stroke
@@ -5177,7 +5187,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 354.33) (xy 439.42 347.98)
+			(xy 441.96 354.33) (xy 441.96 347.98)
 		)
 		(stroke
 			(width 0)
@@ -5297,7 +5307,17 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 215.9) (xy 464.82 215.9)
+			(xy 229.87 441.96) (xy 229.87 445.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "095502f1-9c2e-460d-ace9-568c5aee11cb")
+	)
+	(wire
+		(pts
+			(xy 443.23 215.9) (xy 464.82 215.9)
 		)
 		(stroke
 			(width 0)
@@ -5507,7 +5527,7 @@
 	)
 	(wire
 		(pts
-			(xy 449.58 227.33) (xy 464.82 227.33)
+			(xy 453.39 227.33) (xy 464.82 227.33)
 		)
 		(stroke
 			(width 0)
@@ -5557,7 +5577,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 345.44) (xy 464.82 345.44)
+			(xy 441.96 345.44) (xy 464.82 345.44)
 		)
 		(stroke
 			(width 0)
@@ -5587,7 +5607,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 227.33) (xy 441.96 227.33)
+			(xy 443.23 227.33) (xy 445.77 227.33)
 		)
 		(stroke
 			(width 0)
@@ -5817,7 +5837,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 218.44) (xy 464.82 218.44)
+			(xy 443.23 218.44) (xy 464.82 218.44)
 		)
 		(stroke
 			(width 0)
@@ -5854,26 +5874,6 @@
 			(type default)
 		)
 		(uuid "266a2c38-3294-4164-afdd-1d1f7349fe36")
-	)
-	(wire
-		(pts
-			(xy 396.24 80.01) (xy 454.66 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2677df34-4e76-40d0-ae95-908160561773")
-	)
-	(wire
-		(pts
-			(xy 396.24 77.47) (xy 469.9 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26a576b9-1f7f-4ed6-988e-f6c4696dbdf7")
 	)
 	(wire
 		(pts
@@ -5917,7 +5917,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 336.55) (xy 439.42 337.82)
+			(xy 441.96 336.55) (xy 441.96 337.82)
 		)
 		(stroke
 			(width 0)
@@ -5927,7 +5927,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 342.9) (xy 439.42 345.44)
+			(xy 441.96 342.9) (xy 441.96 345.44)
 		)
 		(stroke
 			(width 0)
@@ -6027,7 +6027,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 340.36) (xy 439.42 342.9)
+			(xy 441.96 340.36) (xy 441.96 342.9)
 		)
 		(stroke
 			(width 0)
@@ -6064,6 +6064,16 @@
 			(type default)
 		)
 		(uuid "2e1e75d4-d077-49d8-bab6-985e540eaffc")
+	)
+	(wire
+		(pts
+			(xy 462.28 82.55) (xy 469.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ea4fb1e-d159-4db8-8cac-7fe750f29f96")
 	)
 	(wire
 		(pts
@@ -6157,7 +6167,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 337.82) (xy 464.82 337.82)
+			(xy 441.96 337.82) (xy 464.82 337.82)
 		)
 		(stroke
 			(width 0)
@@ -6307,6 +6317,16 @@
 	)
 	(wire
 		(pts
+			(xy 520.7 82.55) (xy 520.7 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3accd0f5-90bc-4c9c-9217-5ff9ca931d1e")
+	)
+	(wire
+		(pts
 			(xy 354.33 478.79) (xy 354.33 476.25)
 		)
 		(stroke
@@ -6347,7 +6367,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 209.55) (xy 439.42 210.82)
+			(xy 443.23 209.55) (xy 443.23 210.82)
 		)
 		(stroke
 			(width 0)
@@ -6434,6 +6454,26 @@
 			(type default)
 		)
 		(uuid "42ec4ded-b564-4e84-be7c-247b3f2e34e7")
+	)
+	(wire
+		(pts
+			(xy 228.6 330.2) (xy 228.6 331.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4415b088-a128-4e71-a577-5abeb1599cd9")
+	)
+	(wire
+		(pts
+			(xy 464.82 80.01) (xy 464.82 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443542e6-0ff5-43a8-bfa7-6b7e1942a7a2")
 	)
 	(wire
 		(pts
@@ -6627,16 +6667,6 @@
 	)
 	(wire
 		(pts
-			(xy 502.92 77.47) (xy 509.27 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "504b0a4b-1bea-46b4-bd3a-d7c2239e0cc3")
-	)
-	(wire
-		(pts
 			(xy 87.63 78.74) (xy 105.41 78.74)
 		)
 		(stroke
@@ -6757,6 +6787,16 @@
 	)
 	(wire
 		(pts
+			(xy 520.7 80.01) (xy 527.05 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54948f80-2fdb-4c2d-be0c-07e711ff044a")
+	)
+	(wire
+		(pts
 			(xy 309.88 196.85) (xy 262.89 196.85)
 		)
 		(stroke
@@ -6787,7 +6827,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 218.44) (xy 439.42 220.98)
+			(xy 443.23 218.44) (xy 443.23 220.98)
 		)
 		(stroke
 			(width 0)
@@ -6807,16 +6847,6 @@
 	)
 	(wire
 		(pts
-			(xy 524.51 81.28) (xy 524.51 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56b12a56-75a1-42ef-90ee-fd73075f92e5")
-	)
-	(wire
-		(pts
 			(xy 306.07 364.49) (xy 345.44 364.49)
 		)
 		(stroke
@@ -6827,7 +6857,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 354.33) (xy 443.23 354.33)
+			(xy 441.96 354.33) (xy 445.77 354.33)
 		)
 		(stroke
 			(width 0)
@@ -7047,6 +7077,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 330.2) (xy 228.6 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "637b69d7-2633-4714-bbf2-1b852b73c20a")
+	)
+	(wire
+		(pts
 			(xy 240.03 96.52) (xy 245.11 96.52)
 		)
 		(stroke
@@ -7054,26 +7094,6 @@
 			(type default)
 		)
 		(uuid "637e76f4-03ca-4db9-bfd0-97a7a3b2d8a8")
-	)
-	(wire
-		(pts
-			(xy 502.92 82.55) (xy 516.89 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63c94ad3-86c4-4ba4-9c8f-39c4deb66c3d")
-	)
-	(wire
-		(pts
-			(xy 252.73 425.45) (xy 252.73 424.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "648b54f8-0327-40b0-9987-3f0ff2b1bd10")
 	)
 	(wire
 		(pts
@@ -7227,7 +7247,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 220.98) (xy 464.82 220.98)
+			(xy 443.23 220.98) (xy 464.82 220.98)
 		)
 		(stroke
 			(width 0)
@@ -7307,6 +7327,16 @@
 	)
 	(wire
 		(pts
+			(xy 433.07 337.82) (xy 441.96 337.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c59287e-716b-4128-8d0a-00fa37118272")
+	)
+	(wire
+		(pts
 			(xy 260.35 486.41) (xy 260.35 488.95)
 		)
 		(stroke
@@ -7347,7 +7377,7 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 354.33) (xy 464.82 354.33)
+			(xy 453.39 354.33) (xy 464.82 354.33)
 		)
 		(stroke
 			(width 0)
@@ -7477,6 +7507,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 441.96) (xy 229.87 441.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7328b22f-35d7-41ef-8752-38e7d5c908be")
+	)
+	(wire
+		(pts
 			(xy 462.28 334.01) (xy 464.82 334.01)
 		)
 		(stroke
@@ -7507,7 +7547,17 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 210.82) (xy 464.82 210.82)
+			(xy 430.53 453.39) (xy 430.53 450.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a74dc8-2223-4fba-be11-506c48b6ff0f")
+	)
+	(wire
+		(pts
+			(xy 443.23 210.82) (xy 464.82 210.82)
 		)
 		(stroke
 			(width 0)
@@ -7564,16 +7614,6 @@
 			(type default)
 		)
 		(uuid "78c129d5-0528-46ac-9c97-f545793dc552")
-	)
-	(wire
-		(pts
-			(xy 454.66 80.01) (xy 454.66 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "797996f8-5fb3-4901-8cd5-39a3a605f282")
 	)
 	(wire
 		(pts
@@ -7687,7 +7727,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 213.36) (xy 439.42 215.9)
+			(xy 443.23 213.36) (xy 443.23 215.9)
 		)
 		(stroke
 			(width 0)
@@ -7704,6 +7744,16 @@
 			(type default)
 		)
 		(uuid "7eb242e4-984a-43d9-be4f-56734ca29e66")
+	)
+	(wire
+		(pts
+			(xy 430.53 450.85) (xy 439.42 450.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ebc57e7-ce5f-4123-b5c7-69b3597e174d")
 	)
 	(wire
 		(pts
@@ -7737,13 +7787,13 @@
 	)
 	(wire
 		(pts
-			(xy 516.89 82.55) (xy 516.89 77.47)
+			(xy 396.24 80.01) (xy 464.82 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80a406cf-1e1c-471b-b327-9ba445aca30e")
+		(uuid "80a8b1e8-90fc-48e8-80fb-9374c91cc632")
 	)
 	(wire
 		(pts
@@ -7817,7 +7867,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 347.98) (xy 464.82 347.98)
+			(xy 441.96 347.98) (xy 464.82 347.98)
 		)
 		(stroke
 			(width 0)
@@ -8157,16 +8207,6 @@
 	)
 	(wire
 		(pts
-			(xy 524.51 80.01) (xy 527.05 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90a4cd7b-c3f8-4c50-bfe0-134c73623b87")
-	)
-	(wire
-		(pts
 			(xy 326.39 344.17) (xy 326.39 346.71)
 		)
 		(stroke
@@ -8307,16 +8347,6 @@
 	)
 	(wire
 		(pts
-			(xy 454.66 82.55) (xy 469.9 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95ab8745-362e-46c5-8619-300e0b42ea42")
-	)
-	(wire
-		(pts
 			(xy 251.46 231.14) (xy 265.43 231.14)
 		)
 		(stroke
@@ -8364,16 +8394,6 @@
 			(type default)
 		)
 		(uuid "9850d073-b1aa-4735-9452-8e4d1d206cce")
-	)
-	(wire
-		(pts
-			(xy 509.27 81.28) (xy 524.51 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9896a40b-feb9-45f9-89e7-6203a36f43e8")
 	)
 	(wire
 		(pts
@@ -8427,7 +8447,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 213.36) (xy 464.82 213.36)
+			(xy 443.23 213.36) (xy 464.82 213.36)
 		)
 		(stroke
 			(width 0)
@@ -8587,6 +8607,16 @@
 	)
 	(wire
 		(pts
+			(xy 435.61 210.82) (xy 443.23 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a260822e-c14d-4ef2-a79a-4fd1b9adad2e")
+	)
+	(wire
+		(pts
 			(xy 153.67 87.63) (xy 157.48 87.63)
 		)
 		(stroke
@@ -8624,6 +8654,16 @@
 			(type default)
 		)
 		(uuid "a3e510e8-bcc8-4563-a84b-8dbecc0ec0e9")
+	)
+	(wire
+		(pts
+			(xy 502.92 82.55) (xy 520.7 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a421bd34-9b15-4a4d-bbc6-ee7cbd556016")
 	)
 	(wire
 		(pts
@@ -8737,7 +8777,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 210.82) (xy 439.42 213.36)
+			(xy 443.23 210.82) (xy 443.23 213.36)
 		)
 		(stroke
 			(width 0)
@@ -8807,7 +8847,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 342.9) (xy 464.82 342.9)
+			(xy 441.96 342.9) (xy 464.82 342.9)
 		)
 		(stroke
 			(width 0)
@@ -9027,7 +9067,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 215.9) (xy 439.42 218.44)
+			(xy 443.23 215.9) (xy 443.23 218.44)
 		)
 		(stroke
 			(width 0)
@@ -9214,6 +9254,16 @@
 			(type default)
 		)
 		(uuid "c01b4b9f-09d9-43da-a469-fa5afc0e12d3")
+	)
+	(wire
+		(pts
+			(xy 231.14 214.63) (xy 231.14 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c02fe08d-44be-4f90-80d1-ebfc6281bb5c")
 	)
 	(wire
 		(pts
@@ -9457,6 +9507,16 @@
 	)
 	(wire
 		(pts
+			(xy 462.28 77.47) (xy 462.28 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a54bdb-9c90-4fb4-917e-5816392cc84c")
+	)
+	(wire
+		(pts
 			(xy 252.73 346.71) (xy 265.43 346.71)
 		)
 		(stroke
@@ -9597,7 +9657,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 345.44) (xy 439.42 347.98)
+			(xy 441.96 345.44) (xy 441.96 347.98)
 		)
 		(stroke
 			(width 0)
@@ -9667,7 +9727,17 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 337.82) (xy 439.42 340.36)
+			(xy 240.03 214.63) (xy 231.14 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b49b95-de2c-44df-9d5a-d82932da870f")
+	)
+	(wire
+		(pts
+			(xy 441.96 337.82) (xy 441.96 340.36)
 		)
 		(stroke
 			(width 0)
@@ -9694,6 +9764,16 @@
 			(type default)
 		)
 		(uuid "dac17263-1d9c-494a-be67-52a4abde4a82")
+	)
+	(wire
+		(pts
+			(xy 502.92 77.47) (xy 527.05 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db222b0a-38d4-4033-89ab-82b5abd26ac0")
 	)
 	(wire
 		(pts
@@ -9947,16 +10027,6 @@
 	)
 	(wire
 		(pts
-			(xy 516.89 77.47) (xy 527.05 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6b397a5-6bf8-4c11-aff2-d96adfb9dc89")
-	)
-	(wire
-		(pts
 			(xy 260.35 256.54) (xy 260.35 259.08)
 		)
 		(stroke
@@ -10057,7 +10127,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 340.36) (xy 464.82 340.36)
+			(xy 441.96 340.36) (xy 464.82 340.36)
 		)
 		(stroke
 			(width 0)
@@ -10257,7 +10327,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 227.33) (xy 439.42 220.98)
+			(xy 443.23 227.33) (xy 443.23 220.98)
 		)
 		(stroke
 			(width 0)
@@ -10357,16 +10427,6 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 77.47) (xy 509.27 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc5ad97c-bcc0-4a52-9eea-ef96a9b077ec")
-	)
-	(wire
-		(pts
 			(xy 354.33 251.46) (xy 354.33 248.92)
 		)
 		(stroke
@@ -10394,6 +10454,16 @@
 			(type default)
 		)
 		(uuid "fd015b5d-b274-49de-87c3-44e80ded91d0")
+	)
+	(wire
+		(pts
+			(xy 464.82 77.47) (xy 469.9 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd136bf7-857a-440d-bcf5-b834d92202bc")
 	)
 	(wire
 		(pts
@@ -10705,6 +10775,16 @@
 		)
 		(uuid "54298777-b802-4f08-8013-b73e9af43b68")
 	)
+	(label "3V3_L"
+		(at 134.62 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55c7b41e-85e4-4552-bf69-a9ba94698d48")
+	)
 	(label "9V_FB_1"
 		(at 323.85 364.49 0)
 		(effects
@@ -10846,7 +10926,7 @@
 		(uuid "7cbcf282-48b1-47c9-b1e8-e4ae9bd1caa0")
 	)
 	(label "USB_USB_D+"
-		(at 504.19 82.55 0)
+		(at 505.46 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11086,7 +11166,7 @@
 		(uuid "da3d7b06-e901-4e6a-8a45-6719bd5187c6")
 	)
 	(label "USB_USB_D-"
-		(at 504.19 77.47 0)
+		(at 505.46 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11146,7 +11226,7 @@
 		(uuid "eaad3859-a444-4ea6-933a-aabcd9b35031")
 	)
 	(label "12V_TON_2"
-		(at 452.12 227.33 0)
+		(at 453.39 227.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11658,7 +11738,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 252.73 205.74 0)
+		(at 231.14 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11667,7 +11747,7 @@
 		(fields_autoplaced yes)
 		(uuid "04bf53ad-5024-4bb0-91a3-28650b47ffa5")
 		(property "Reference" "#PWR026"
-			(at 252.73 212.09 0)
+			(at 231.14 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11676,7 +11756,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 210.82 0)
+			(at 231.14 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11684,7 +11764,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 205.74 0)
+			(at 231.14 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11693,7 +11773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 205.74 0)
+			(at 231.14 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11702,7 +11782,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 205.74 0)
+			(at 231.14 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11849,6 +11929,85 @@
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 452.12 325.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08e32387-a514-4365-b890-bcd8c9f67e4d")
+		(property "Reference" "C37"
+			(at 455.93 323.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 455.93 326.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 453.0852 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0805C475J3RACTU/12700961"
+			(at 452.12 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 µF ±5% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 452.12 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "C0805C475J3RACTU"
+			(at 452.12 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "72a96f32-3482-44bb-9458-0ba30c1650ad")
+		)
+		(pin "1"
+			(uuid "364e67a1-cf90-4405-9041-fa71a85e54d7")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -12419,6 +12578,72 @@
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 252.73 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e3cb995-72ab-4b9b-94fa-b5cc3289bfb0")
+		(property "Reference" "#PWR093"
+			(at 252.73 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "343eabcc-6a27-40e5-977b-96183cfefd09")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -13007,7 +13232,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 252.73 321.31 0)
+		(at 228.6 339.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13016,7 +13241,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d30cefa-595e-4e6b-bf29-ecac4ec5ec8c")
 		(property "Reference" "#PWR045"
-			(at 252.73 327.66 0)
+			(at 228.6 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13025,7 +13250,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 326.39 0)
+			(at 228.6 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13033,7 +13258,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 321.31 0)
+			(at 228.6 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13042,7 +13267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 321.31 0)
+			(at 228.6 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13051,7 +13276,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 321.31 0)
+			(at 228.6 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13282,7 +13507,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 452.12 328.93 0)
+		(at 433.07 345.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13291,7 +13516,7 @@
 		(fields_autoplaced yes)
 		(uuid "23109223-e18d-4d94-b160-5410d11b9380")
 		(property "Reference" "#PWR047"
-			(at 452.12 335.28 0)
+			(at 433.07 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13300,7 +13525,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 452.12 334.01 0)
+			(at 433.07 350.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13308,7 +13533,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 452.12 328.93 0)
+			(at 433.07 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13317,7 +13542,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 452.12 328.93 0)
+			(at 433.07 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13326,7 +13551,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 452.12 328.93 0)
+			(at 433.07 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13633,6 +13858,85 @@
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 452.12 438.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2719bb2f-09d4-4bd9-916f-11bfcea3689c")
+		(property "Reference" "C40"
+			(at 455.93 436.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 455.93 439.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 453.0852 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0805C475J3RACTU/12700961"
+			(at 452.12 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 µF ±5% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 452.12 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "C0805C475J3RACTU"
+			(at 452.12 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dfd4a21c-f8fd-4eab-ba40-84a978d2df48")
+		)
+		(pin "1"
+			(uuid "7459a19e-2480-4a50-abf5-66ca154fe962")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -14332,7 +14636,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 252.73 429.26 0)
+		(at 229.87 449.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14341,7 +14645,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f070074-3bc6-4ae4-861a-9481e15454d6")
 		(property "Reference" "C24"
-			(at 256.54 427.9899 0)
+			(at 233.68 448.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14350,7 +14654,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 256.54 430.5299 0)
+			(at 233.68 450.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14359,7 +14663,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 253.6952 433.07 0)
+			(at 230.8352 453.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14368,7 +14672,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL21A226KQCLRNC/5961171"
-			(at 252.73 429.26 0)
+			(at 229.87 449.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14377,7 +14681,7 @@
 			)
 		)
 		(property "Description" "22 µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"
-			(at 252.73 429.26 0)
+			(at 229.87 449.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14386,7 +14690,7 @@
 			)
 		)
 		(property "Model" "CL21A226KQCLRNC"
-			(at 252.73 429.26 0)
+			(at 229.87 449.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15016,6 +15320,85 @@
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 452.12 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "380f3b75-71be-4ecf-9ea5-635c256de86e")
+		(property "Reference" "C36"
+			(at 455.93 196.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 455.93 199.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 453.0852 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0805C475J3RACTU/12700961"
+			(at 452.12 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 µF ±5% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 452.12 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "C0805C475J3RACTU"
+			(at 452.12 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "94c511e6-74f6-4895-bca0-d598805f5eee")
+		)
+		(pin "1"
+			(uuid "96683f09-4c7c-4a52-96d4-79e1a51a96fa")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -15697,8 +16080,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 252.73 317.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "430e2034-0d6c-494b-9506-dbdc2d4c4c55")
+		(property "Reference" "C38"
+			(at 256.54 316.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 256.54 318.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 253.6952 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0805C475J3RACTU/12700961"
+			(at 252.73 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 µF ±5% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 252.73 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "C0805C475J3RACTU"
+			(at 252.73 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a3f0492-8fa6-425d-8147-7982c686f129")
+		)
+		(pin "1"
+			(uuid "e8f2c580-3482-4f7b-b385-32e6dada72ca")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 452.12 441.96 0)
+		(at 430.53 461.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15707,7 +16169,7 @@
 		(fields_autoplaced yes)
 		(uuid "43ccb84a-c45b-4fcd-bf35-705228b599ee")
 		(property "Reference" "#PWR067"
-			(at 452.12 448.31 0)
+			(at 430.53 467.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15716,7 +16178,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 452.12 447.04 0)
+			(at 430.53 466.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15724,7 +16186,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 452.12 441.96 0)
+			(at 430.53 461.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15733,7 +16195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 452.12 441.96 0)
+			(at 430.53 461.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15742,7 +16204,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 452.12 441.96 0)
+			(at 430.53 461.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15840,7 +16302,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 452.12 438.15 0)
+		(at 430.53 457.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15849,7 +16311,7 @@
 		(fields_autoplaced yes)
 		(uuid "45a2cd53-d2cd-41e0-85b7-24011ceae130")
 		(property "Reference" "C25"
-			(at 455.93 436.8799 0)
+			(at 434.34 455.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15858,7 +16320,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 455.93 439.4199 0)
+			(at 434.34 458.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15867,7 +16329,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 453.0852 441.96 0)
+			(at 431.4952 461.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15876,7 +16338,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL21A226KQCLRNC/5961171"
-			(at 452.12 438.15 0)
+			(at 430.53 457.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15885,7 +16347,7 @@
 			)
 		)
 		(property "Description" "22 µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"
-			(at 452.12 438.15 0)
+			(at 430.53 457.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15894,7 +16356,7 @@
 			)
 		)
 		(property "Model" "CL21A226KQCLRNC"
-			(at 452.12 438.15 0)
+			(at 430.53 457.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15978,6 +16440,85 @@
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 252.73 201.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "489187f8-45c0-4bd4-b6ec-41a6706db0d8")
+		(property "Reference" "C35"
+			(at 256.54 200.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 256.54 203.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 253.6952 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0805C475J3RACTU/12700961"
+			(at 252.73 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 µF ±5% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 252.73 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "C0805C475J3RACTU"
+			(at 252.73 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "90f1e85d-852a-479e-9cee-753696747830")
+		)
+		(pin "1"
+			(uuid "c4041a70-56ea-407f-8d6e-1f6e9c224122")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -16213,6 +16754,72 @@
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 252.73 431.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dbb1a39-96de-4ea1-bb91-b583d62c86e7")
+		(property "Reference" "#PWR097"
+			(at 252.73 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.73 436.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78e7c876-295f-4d6d-b508-fe47dbc5de62")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -16910,6 +17517,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 252.73 321.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "569bc2aa-4cf8-4987-b212-a24271b7e4c3")
+		(property "Reference" "#PWR096"
+			(at 252.73 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.73 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04c6f811-1da7-4b20-92f0-8625bed0673f")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 509.27 198.12 0)
 		(unit 1)
@@ -17194,6 +17867,72 @@
 			(project "Power-Distribution-Board"
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 452.12 201.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a01a46a-fe40-424c-b230-84d1e18978fc")
+		(property "Reference" "#PWR094"
+			(at 452.12 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 452.12 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 452.12 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 452.12 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 452.12 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d739de7-754f-46bf-9677-6e1e90945643")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -17550,6 +18289,85 @@
 			(project ""
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 252.73 427.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66554a6a-3f37-4de1-b014-d52bdf1d6cd2")
+		(property "Reference" "C39"
+			(at 256.54 426.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 256.54 429.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 253.6952 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0805C475J3RACTU/12700961"
+			(at 252.73 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 µF ±5% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 252.73 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "C0805C475J3RACTU"
+			(at 252.73 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "23d232d8-714d-4a8f-996a-1e381ebe5cbf")
+		)
+		(pin "1"
+			(uuid "dea6c095-098a-433d-9e35-f99c47911d90")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -17919,16 +18737,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 452.12 201.93 0)
+		(at 452.12 328.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6bb6beee-f25a-4662-954f-76c6f403e1d8")
-		(property "Reference" "#PWR025"
-			(at 452.12 208.28 0)
+		(uuid "6a126175-ab84-4040-b4fb-13cb6e4689e2")
+		(property "Reference" "#PWR095"
+			(at 452.12 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17937,7 +18755,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 452.12 207.01 0)
+			(at 452.12 334.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17945,7 +18763,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 452.12 201.93 0)
+			(at 452.12 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17954,7 +18772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 452.12 201.93 0)
+			(at 452.12 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17963,7 +18781,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 452.12 201.93 0)
+			(at 452.12 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5870876-37b6-4f86-bc6b-2674ccc8576f")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 435.61 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bb6beee-f25a-4662-954f-76c6f403e1d8")
+		(property "Reference" "#PWR025"
+			(at 435.61 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 435.61 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 435.61 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 435.61 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 435.61 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18420,7 +19304,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 252.73 201.93 0)
+		(at 231.14 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18429,7 +19313,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e9ce078-a4fc-4b58-a953-997499558cb5")
 		(property "Reference" "C9"
-			(at 256.54 200.6599 0)
+			(at 234.95 218.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18438,7 +19322,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 256.54 203.1999 0)
+			(at 234.95 220.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18447,7 +19331,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 253.6952 205.74 0)
+			(at 232.1052 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18456,7 +19340,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL21A226KQCLRNC/5961171"
-			(at 252.73 201.93 0)
+			(at 231.14 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18465,7 +19349,7 @@
 			)
 		)
 		(property "Description" "22 µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"
-			(at 252.73 201.93 0)
+			(at 231.14 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18474,7 +19358,7 @@
 			)
 		)
 		(property "Model" "CL21A226KQCLRNC"
-			(at 252.73 201.93 0)
+			(at 231.14 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19359,16 +20243,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 452.12 198.12 0)
+		(at 435.61 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "801501d8-c320-49f3-9347-7510cb3a8bed")
 		(property "Reference" "C8"
-			(at 455.93 196.8499 0)
+			(at 438.404 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19377,7 +20260,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 455.93 199.3899 0)
+			(at 438.404 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19386,7 +20269,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 453.0852 201.93 0)
+			(at 436.5752 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19395,7 +20278,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL21A226KQCLRNC/5961171"
-			(at 452.12 198.12 0)
+			(at 435.61 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19404,7 +20287,7 @@
 			)
 		)
 		(property "Description" "22 µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"
-			(at 452.12 198.12 0)
+			(at 435.61 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19413,7 +20296,7 @@
 			)
 		)
 		(property "Model" "CL21A226KQCLRNC"
-			(at 452.12 198.12 0)
+			(at 435.61 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20085,7 +20968,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 439.42 336.55 0)
+		(at 441.96 336.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20094,7 +20977,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c2ee8d0-55e3-443e-b2fb-aa9722d96f73")
 		(property "Reference" "#PWR048"
-			(at 439.42 340.36 0)
+			(at 441.96 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20103,7 +20986,7 @@
 			)
 		)
 		(property "Value" "+14V8"
-			(at 439.42 331.47 0)
+			(at 441.96 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20111,7 +20994,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 439.42 336.55 0)
+			(at 441.96 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20120,7 +21003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 439.42 336.55 0)
+			(at 441.96 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20129,7 +21012,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 439.42 336.55 0)
+			(at 441.96 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20230,7 +21113,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 452.12 325.12 0)
+		(at 433.07 341.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20239,7 +21122,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e040965-03bb-4dab-a577-2ca544929bca")
 		(property "Reference" "C17"
-			(at 455.93 323.8499 0)
+			(at 436.88 340.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20248,7 +21131,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 455.93 326.3899 0)
+			(at 436.88 342.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20257,7 +21140,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 453.0852 328.93 0)
+			(at 434.0352 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20266,7 +21149,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL21A226KQCLRNC/5961171"
-			(at 452.12 325.12 0)
+			(at 433.07 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20275,7 +21158,7 @@
 			)
 		)
 		(property "Description" "22 µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"
-			(at 452.12 325.12 0)
+			(at 433.07 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20284,7 +21167,7 @@
 			)
 		)
 		(property "Model" "CL21A226KQCLRNC"
-			(at 452.12 325.12 0)
+			(at 433.07 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20556,7 +21439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Micro-B_Wuerth_629105150521"
+		(property "Footprint" "Power_Distribution_Board:629105150521"
 			(at 530.86 78.74 0)
 			(effects
 				(font
@@ -21450,7 +22333,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 439.42 209.55 0)
+		(at 443.23 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21459,7 +22342,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fbc85c5-ba5a-45c0-a328-fa03886efe53")
 		(property "Reference" "#PWR027"
-			(at 439.42 213.36 0)
+			(at 443.23 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21468,7 +22351,7 @@
 			)
 		)
 		(property "Value" "+14V8"
-			(at 439.42 204.47 0)
+			(at 443.23 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21476,7 +22359,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 439.42 209.55 0)
+			(at 443.23 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21485,7 +22368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 439.42 209.55 0)
+			(at 443.23 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21494,7 +22377,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 439.42 209.55 0)
+			(at 443.23 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21582,7 +22465,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 252.73 433.07 0)
+		(at 229.87 453.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21591,7 +22474,7 @@
 		(fields_autoplaced yes)
 		(uuid "a183f448-6a4a-4161-a5ea-611e8f36d357")
 		(property "Reference" "#PWR065"
-			(at 252.73 439.42 0)
+			(at 229.87 459.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21600,7 +22483,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 438.15 0)
+			(at 229.87 458.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21608,7 +22491,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 433.07 0)
+			(at 229.87 453.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21617,7 +22500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 433.07 0)
+			(at 229.87 453.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21626,7 +22509,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 433.07 0)
+			(at 229.87 453.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21938,7 +22821,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 447.04 354.33 90)
+		(at 449.58 354.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21946,7 +22829,7 @@
 		(dnp no)
 		(uuid "aa69160d-cfbf-46f1-bb62-ad86ec12d60f")
 		(property "Reference" "R21"
-			(at 446.786 349.25 90)
+			(at 449.326 349.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21954,7 +22837,7 @@
 			)
 		)
 		(property "Value" "374k"
-			(at 446.786 351.79 90)
+			(at 449.326 351.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21962,7 +22845,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 447.04 356.108 90)
+			(at 449.58 356.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21971,7 +22854,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/RT0603BRD07374KL/5927935"
-			(at 447.04 354.33 0)
+			(at 449.58 354.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21980,7 +22863,7 @@
 			)
 		)
 		(property "Description" "374 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film"
-			(at 447.04 354.33 0)
+			(at 449.58 354.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21989,7 +22872,7 @@
 			)
 		)
 		(property "Model" "RT0603BRD07374KL"
-			(at 447.04 354.33 90)
+			(at 449.58 354.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22581,6 +23464,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 452.12 441.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afb171fd-528c-49c0-88f6-2d0bb09d1bfc")
+		(property "Reference" "#PWR098"
+			(at 452.12 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 452.12 447.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 452.12 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 452.12 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 452.12 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b9d30f7-d5dc-4aa4-85c7-0128d2505829")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 157.48 82.55 180)
 		(unit 1)
@@ -22957,7 +23906,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 252.73 317.5 0)
+		(at 228.6 335.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22966,7 +23915,7 @@
 		(fields_autoplaced yes)
 		(uuid "b69d71c4-5197-4b55-a73c-58cfb8117738")
 		(property "Reference" "C16"
-			(at 256.54 316.2299 0)
+			(at 232.41 334.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22975,7 +23924,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 256.54 318.7699 0)
+			(at 232.41 336.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22984,7 +23933,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 253.6952 321.31 0)
+			(at 229.5652 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22993,7 +23942,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL21A226KQCLRNC/5961171"
-			(at 252.73 317.5 0)
+			(at 228.6 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23002,7 +23951,7 @@
 			)
 		)
 		(property "Description" "22 µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"
-			(at 252.73 317.5 0)
+			(at 228.6 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23011,7 +23960,7 @@
 			)
 		)
 		(property "Model" "CL21A226KQCLRNC"
-			(at 252.73 317.5 0)
+			(at 228.6 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23740,7 +24689,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 445.77 227.33 90)
+		(at 449.58 227.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23748,7 +24697,7 @@
 		(dnp no)
 		(uuid "cafd78cf-5037-4dde-8e76-6dfb1a35c5d6")
 		(property "Reference" "R10"
-			(at 445.516 222.25 90)
+			(at 449.326 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23756,7 +24705,7 @@
 			)
 		)
 		(property "Value" "499k"
-			(at 445.516 224.79 90)
+			(at 449.326 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23764,7 +24713,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 445.77 229.108 90)
+			(at 449.58 229.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23773,7 +24722,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/koa-speer-electronics-inc/RN73H1JTTD4993B25/10685917"
-			(at 445.77 227.33 0)
+			(at 449.58 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23782,7 +24731,7 @@
 			)
 		)
 		(property "Description" "499 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Metal Film"
-			(at 445.77 227.33 0)
+			(at 449.58 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23791,7 +24740,7 @@
 			)
 		)
 		(property "Model" "RN73H1JTTD4993B25"
-			(at 445.77 227.33 90)
+			(at 449.58 227.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
