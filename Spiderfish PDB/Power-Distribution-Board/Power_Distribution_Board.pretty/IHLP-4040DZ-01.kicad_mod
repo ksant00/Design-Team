@@ -1,0 +1,191 @@
+(footprint "IHLP-4040DZ-01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "IHLP4040")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 0 -6.3246 0)
+		(layer "F.SilkS")
+		(uuid "33dea240-5319-48da-8cb9-1cfd9d60e9aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "IHLP-4040DZ-01"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "36bb3e20-d0da-4762-97b0-81c20d893291")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b8a9980-d0a8-409a-b554-657ca8c97fd3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "3.3/4.7 µH Shielded Molded Inductor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1eac726d-ba33-4914-90eb-d33bc5047d0b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.398 5.08)
+		(end 5.398 5.08)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "577ceccc-c15f-4bbd-bd05-a22689d1560d")
+	)
+	(fp_line
+		(start 5.398 -5.08)
+		(end -5.398 -5.08)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4f08133-77e2-4c8d-bef2-cafe68915300")
+	)
+	(fp_line
+		(start -6.275 -5.394)
+		(end 6.275 -5.394)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e9080b4c-9000-4b5f-9ae5-76c8aeacdad5")
+	)
+	(fp_line
+		(start -6.275 5.394)
+		(end -6.275 -5.394)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ad233a7c-71ee-46f8-a748-cd440a203876")
+	)
+	(fp_line
+		(start 6.275 -5.394)
+		(end 6.275 5.394)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "48ed82f7-0449-46ea-8aa1-e1ac0fb39276")
+	)
+	(fp_line
+		(start 6.275 5.394)
+		(end -6.275 5.394)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "be8cf960-8e49-42a9-b424-a5c9ea7395e0")
+	)
+	(fp_line
+		(start -5.398 -5.08)
+		(end 5.398 -5.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "594f4af4-b63d-445c-949f-67d798c650a2")
+	)
+	(fp_line
+		(start -5.398 5.08)
+		(end -5.398 -5.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12fac28c-7026-40f8-b4ea-2688b43768b4")
+	)
+	(fp_line
+		(start 5.398 -5.08)
+		(end 5.398 5.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f42446e-a282-4483-9395-eeb3c55833c4")
+	)
+	(fp_line
+		(start 5.398 5.08)
+		(end -5.398 5.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f86a3b8-576e-4b66-8b5f-cdb546a69dd8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "dd487662-22c0-42b0-93b4-4315a7ae4a27")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.5 0)
+		(size 3.05 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b6c35f2e-308d-4e21-b258-b3d574e763bc")
+	)
+	(pad "2" smd rect
+		(at 4.5 0)
+		(size 3.05 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "07bad998-fd5b-4751-a097-e63071a4d6de")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Power_Distribution_Board.pretty/IHLP4040DZER3R3M01.stp"
+		(offset
+			(xyz -3.259999942 3.549999899 -2.400000059)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
