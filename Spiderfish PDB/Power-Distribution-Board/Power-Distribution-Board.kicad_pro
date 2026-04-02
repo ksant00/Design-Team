@@ -597,11 +597,11 @@
       },
       {
         "netclass": "12V_REG_1",
-        "pattern": "/12V_*?1"
+        "pattern": "/12V_*1"
       },
       {
         "netclass": "12V_REG_2",
-        "pattern": "/12V_*?2"
+        "pattern": "/12V_*2"
       },
       {
         "netclass": "9V_REG_1",
@@ -609,15 +609,15 @@
       },
       {
         "netclass": "9V_REG_2",
-        "pattern": "/9V_*?2"
+        "pattern": "/9V_*2"
       },
       {
         "netclass": "5V_REG_1",
-        "pattern": "/5V_*?1"
+        "pattern": "/5V_*1"
       },
       {
         "netclass": "5V_REG_2",
-        "pattern": "/5V_*?2"
+        "pattern": "/5V_*2"
       },
       {
         "netclass": "USB",
@@ -626,6 +626,14 @@
       {
         "netclass": "IC_POWER",
         "pattern": "+3V3"
+      },
+      {
+        "netclass": "IC_POWER",
+        "pattern": "/3V3*"
+      },
+      {
+        "netclass": "ANG_POWER",
+        "pattern": "/5V0*"
       }
     ]
   },
