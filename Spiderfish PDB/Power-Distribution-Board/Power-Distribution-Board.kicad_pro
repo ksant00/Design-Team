@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 6.1,
-          "height": 9.15,
-          "width": 9.15
+          "drill": 0.85,
+          "height": 2.0,
+          "width": 1.45
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -539,18 +539,18 @@
       },
       {
         "bus_width": 12,
-        "name": "9V_REG_1",
-        "pcb_color": "rgb(255, 10, 236)",
-        "priority": 5,
-        "schematic_color": "rgb(255, 10, 236)",
+        "name": "7V_REG_1",
+        "pcb_color": "rgb(255, 102, 180)",
+        "priority": 4,
+        "schematic_color": "rgb(255, 102, 180)",
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "name": "9V_REG_2",
-        "pcb_color": "rgb(255, 102, 180)",
-        "priority": 4,
-        "schematic_color": "rgb(255, 102, 180)",
+        "name": "9V_REG_1",
+        "pcb_color": "rgb(255, 10, 236)",
+        "priority": 5,
+        "schematic_color": "rgb(255, 10, 236)",
         "wire_width": 6
       },
       {
@@ -610,11 +610,11 @@
       },
       {
         "netclass": "9V_REG_1",
-        "pattern": "/9V_*?1"
+        "pattern": "/9V_*1"
       },
       {
-        "netclass": "9V_REG_2",
-        "pattern": "/9V_*2"
+        "netclass": "7V_REG_1",
+        "pattern": "/7V_*1"
       },
       {
         "netclass": "5V_REG_1",
@@ -647,7 +647,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Mfr/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -720,12 +720,72 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Model",
+          "name": "Model",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

@@ -1408,7 +1408,7 @@
 					(type background)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -5.08 -2.54 0)
 				(length 5.08)
 				(name "VIN"

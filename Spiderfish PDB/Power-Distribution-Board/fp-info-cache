@@ -1,4 +1,4 @@
-27249186971096670
+27250963515080430
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95087,6 +95087,13 @@ Integrated Circuit
 0
 6
 6
+Power_Distribution_Board
+MIC5504-3.3YM5-TR
+MIC5504-3.3YM5-T
+Integrated Circuit
+0
+5
+5
 Power_Distribution_Board
 RT6254BHGJ6F
 TSOT-23-6 (FC

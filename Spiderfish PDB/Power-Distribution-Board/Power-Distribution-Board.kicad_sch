@@ -2072,7 +2072,7 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 5.08)
 					(name "VIN"
@@ -4802,12 +4802,12 @@
 		(uuid "ff997c60-e345-475e-a7d1-fa44fc055e43")
 	)
 	(no_connect
-		(at 411.48 93.98)
-		(uuid "376df4ee-52d3-4277-a713-485f00cb25bf")
+		(at 537.21 87.63)
+		(uuid "1c263905-1a05-4b42-974c-9a48bd372476")
 	)
 	(no_connect
-		(at 537.21 87.63)
-		(uuid "3dda1a0d-ee85-444e-929b-a134bb4fa6fb")
+		(at 411.48 93.98)
+		(uuid "376df4ee-52d3-4277-a713-485f00cb25bf")
 	)
 	(no_connect
 		(at 330.2 107.95)
@@ -5730,16 +5730,6 @@
 			(type default)
 		)
 		(uuid "2e1e75d4-d077-49d8-bab6-985e540eaffc")
-	)
-	(wire
-		(pts
-			(xy 106.68 81.28) (xy 106.68 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e55dca5-7d63-4643-9574-66b48efc58ef")
 	)
 	(wire
 		(pts
@@ -9033,6 +9023,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 86.36) (xy 81.28 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc3d5a38-6656-456a-bdae-4cd8999d91f1")
+	)
+	(wire
+		(pts
 			(xy 527.05 179.07) (xy 543.56 179.07)
 		)
 		(stroke
@@ -9783,6 +9783,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 88.9) (xy 81.28 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f252d9e9-c372-4a6e-92f6-0e560a18078d")
+	)
+	(wire
+		(pts
 			(xy 260.35 80.01) (xy 294.64 80.01)
 		)
 		(stroke
@@ -10281,7 +10291,7 @@
 		)
 		(uuid "4a149235-a643-416f-843f-a63b58f46103")
 	)
-	(label "9V_OUT_2"
+	(label "7V_OUT_1"
 		(at 520.7 306.07 0)
 		(effects
 			(font
@@ -10361,8 +10371,8 @@
 		)
 		(uuid "5c341a0a-8d69-47ca-87f1-8802d4db08ca")
 	)
-	(label "9V_PGOOD_2"
-		(at 472.44 274.32 0)
+	(label "7V_PGOOD_1"
+		(at 472.44 275.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10481,7 +10491,7 @@
 		)
 		(uuid "77702452-d807-4ebc-a0ab-14bcd2467d40")
 	)
-	(label "9V_BST_2"
+	(label "7V_BST_1"
 		(at 469.9 284.48 0)
 		(effects
 			(font
@@ -10571,7 +10581,7 @@
 		)
 		(uuid "9258abfa-037b-4b3d-8708-cac30dafa921")
 	)
-	(label "9V_SS_2"
+	(label "7V_SS_1"
 		(at 417.83 314.96 0)
 		(effects
 			(font
@@ -10631,7 +10641,7 @@
 		)
 		(uuid "988caefe-972b-4f70-9218-2638b3a016a6")
 	)
-	(label "9V_EN_2"
+	(label "7V_EN_1"
 		(at 416.56 304.8 0)
 		(effects
 			(font
@@ -10661,7 +10671,7 @@
 		)
 		(uuid "a2c4bbe5-110b-4e74-b53a-9151e1c505ef")
 	)
-	(label "9V_LX_2"
+	(label "7V_LX_1"
 		(at 490.22 298.45 0)
 		(effects
 			(font
@@ -10722,6 +10732,16 @@
 		(uuid "c33d9dc8-e48d-4205-a727-df6f213bead6")
 	)
 	(label "USB_VBUS"
+		(at 71.12 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4fcc845-775f-4b2a-8b61-d1707bb33cf0")
+	)
+	(label "USB_VBUS"
 		(at 516.89 72.39 0)
 		(effects
 			(font
@@ -10731,7 +10751,7 @@
 		)
 		(uuid "c7f1d342-c59e-4e9e-840f-1774b4519e31")
 	)
-	(label "9V_EN_2"
+	(label "7V_EN_1"
 		(at 411.48 96.52 180)
 		(effects
 			(font
@@ -10781,7 +10801,7 @@
 		)
 		(uuid "dbcaed60-505d-4f94-8de1-826d901d5e21")
 	)
-	(label "9V_PGOOD_2"
+	(label "7V_PGOOD_1"
 		(at 411.48 82.55 180)
 		(effects
 			(font
@@ -10841,7 +10861,7 @@
 		)
 		(uuid "e83631a1-7d41-4023-8782-9cb98faca6f7")
 	)
-	(label "9V_TON_2"
+	(label "7V_TON_1"
 		(at 416.56 298.45 0)
 		(effects
 			(font
@@ -10881,7 +10901,7 @@
 		)
 		(uuid "f5a21756-819c-434f-8a8e-f1ba3c861a9f")
 	)
-	(label "9V_FB_2"
+	(label "7V_FB_1"
 		(at 485.14 316.23 0)
 		(effects
 			(font
@@ -10901,7 +10921,7 @@
 		)
 		(uuid "f9f2d062-eac9-4f7f-ae28-92cb93401b98")
 	)
-	(label "9V_OSC_2"
+	(label "7V_OSC_1"
 		(at 411.48 312.42 0)
 		(effects
 			(font
@@ -11396,7 +11416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM21BZ71E106KE15L/13904911"
+		(property "Datasheet" "~"
 			(at 177.8 91.44 0)
 			(effects
 				(font
@@ -11405,7 +11425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+		(property "Description" "Unpolarized capacitor"
 			(at 177.8 91.44 0)
 			(effects
 				(font
@@ -11856,6 +11876,73 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 73.66 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e4d0e8d-c51a-4bf4-a053-35152b53cb4c")
+		(property "Reference" "#PWR097"
+			(at 77.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 69.85 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be26dd03-1a03-4a22-887d-449fe2d10453")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 402.59 393.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12139,6 +12226,80 @@
 			(project ""
 				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Distribution_Board:CJS-1200TB1")
+		(at 86.36 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1641f9ed-b627-4877-92de-be6a78da0a0d")
+		(property "Reference" "S3"
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CJS-1200TB1"
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Power_Distribution_Board:CJS1200TB1"
+			(at 96.266 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/nidec-components/CJS-1200TB1/2095031?s=N4IgTCBcDaIMICkDKBGMAGdAVAQikAugL5A"
+			(at 96.266 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dip Switch SPDT Position Surface Mount Slide (Standard) Actuator 100mA"
+			(at 96.266 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9900d714-7712-4026-b15b-6690b94056a5")
+		)
+		(pin "1"
+			(uuid "4c2434a7-0899-4226-86fd-df2d895576f3")
+		)
+		(pin "2"
+			(uuid "359eb6d1-9b54-483c-bf2a-3e80dba6dd95")
+		)
+		(instances
+			(project "Power-Distribution-Board"
+				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -12537,7 +12698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM21BZ71E106KE15L/13904911"
+		(property "Datasheet" "~"
 			(at 115.57 91.44 0)
 			(effects
 				(font
@@ -12546,7 +12707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+		(property "Description" "Unpolarized capacitor"
 			(at 115.57 91.44 0)
 			(effects
 				(font
@@ -15361,7 +15522,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "13k"
+		(property "Value" "15k"
 			(at 511.81 323.8499 0)
 			(effects
 				(font
@@ -15397,7 +15558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "ERJ-PB3B1302V"
+		(property "Model" "ERA-3AEB153V"
 			(at 509.27 322.58 0)
 			(effects
 				(font
@@ -17350,72 +17511,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 106.68 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ef93312-8dea-47d5-a297-9420a0003b4c")
-		(property "Reference" "#PWR021"
-			(at 106.68 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 106.68 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 106.68 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c2703e2-f5e3-4588-ac1c-24521811feb3")
-		)
-		(instances
-			(project "Power-Distribution-Board"
-				(path "/b6bfdd09-2ecc-401d-9031-16f8a1e99788"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 133.35 88.9 90)
 		(unit 1)
@@ -18227,7 +18322,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "182k"
+		(property "Value" "160k"
 			(at 511.81 312.4199 0)
 			(effects
 				(font
@@ -18263,7 +18358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "ERA-3AEB1823V"
+		(property "Model" "RC0603FR-07160KL"
 			(at 509.27 311.15 0)
 			(effects
 				(font
@@ -22103,7 +22198,7 @@
 				)
 			)
 		)
-		(property "Value" "374k"
+		(property "Value" "300k"
 			(at 412.496 295.91 90)
 			(effects
 				(font
@@ -22138,7 +22233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "RT0603BRD07374KL"
+		(property "Model" "ERA-3AEB304V"
 			(at 412.75 298.45 90)
 			(effects
 				(font
@@ -22955,7 +23050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM21BZ71E106KE15L/13904911"
+		(property "Datasheet" "~"
 			(at 304.8 69.85 0)
 			(effects
 				(font
@@ -22964,7 +23059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+		(property "Description" "Unpolarized capacitor"
 			(at 304.8 69.85 0)
 			(effects
 				(font
